@@ -1,0 +1,88 @@
+
+=INFO REPORT==== 2013-10-31 16:09:43 ===I(<0.47.0>:game_server:19) : 2013-10-31 16:09:43 start initing server 254...
+
+
+=INFO REPORT==== 2013-10-31 16:09:47 ===I(<0.47.0>:game_server:109) : 2013-10-31 16:09:47 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-31 16:09:47 ===I(<0.47.0>:game_server:212) : 2013-10-31 16:09:47 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-31 16:09:47 ===I(<0.47.0>:game_server:57) : 2013-10-31 16:09:47 initing end server 254...
+
+
+=INFO REPORT==== 2013-10-31 16:10:47 ===I(<0.170.0>:db_agent_log:69) : insert_log_online Now:1383207047 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 16:15:47 ===I(<0.171.0>:db_agent_log:69) : insert_log_online Now:1383207347 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 16:20:47 ===I(<0.172.0>:db_agent_log:69) : insert_log_online Now:1383207647 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 16:25:47 ===I(<0.173.0>:db_agent_log:69) : insert_log_online Now:1383207947 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 16:30:47 ===I(<0.174.0>:db_agent_log:69) : insert_log_online Now:1383208247 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 16:35:47 ===I(<0.175.0>:db_agent_log:69) : insert_log_online Now:1383208547 OnlineNum:0 
+
+
+=ERROR REPORT==== 2013-10-31 16:37:42 ===E(<0.214.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013332
+
+=ERROR REPORT==== 2013-10-31 16:37:46 ===E(<0.218.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-31 16:39:01 ===E(<0.254.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013333
+
+=ERROR REPORT==== 2013-10-31 16:39:08 ===E(<0.257.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-31 16:39:56 ===E(<0.214.0>:game_server_reader:231) : Lost player connection cmd : 11004 reason timeout 
+
+
+=INFO REPORT==== 2013-10-31 16:40:47 ===I(<0.272.0>:db_agent_log:69) : insert_log_online Now:1383208847 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-10-31 16:41:04 ===E(<0.254.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.5895>,
+                                                                              125,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 16:41:10 ===E(<0.218.0>:mod_player:145) : 处理消息[11004]出异常：{error,
+                                                              {case_clause,
+                                                               {interpreter_terminated,
+                                                                shutdown}},
+                                                              [{pp_chat,
+                                                                handle,3,
+                                                                [{file,
+                                                                  "src/pp/pp_chat.erl"},
+                                                                 {line,101}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,588}]},
+                                                               {proc_lib,
+                                                                init_p_do_apply,
+                                                                3,
+                                                                [{file,
+                                                                  "proc_lib.erl"},
+                                                                 {line,
+                                                                  227}]}]}
+
+=INFO REPORT==== 2013-10-31 16:42:44 ===I(<0.278.0>:db_agent_log:111) : insert_log_scene_online Now:1383208964
+

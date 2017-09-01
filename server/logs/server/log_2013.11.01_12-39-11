@@ -1,0 +1,30 @@
+
+=INFO REPORT==== 2013-11-01 12:39:11 ===I(<0.47.0>:game_server:19) : 2013-11-01 12:39:11 start initing server 254...
+
+
+=INFO REPORT==== 2013-11-01 12:39:13 ===I(<0.47.0>:game_server:109) : 2013-11-01 12:39:13 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-11-01 12:39:13 ===I(<0.47.0>:game_server:212) : 2013-11-01 12:39:13 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-11-01 12:39:13 ===I(<0.47.0>:game_server:57) : 2013-11-01 12:39:13 initing end server 254...
+
+
+=ERROR REPORT==== 2013-11-01 12:39:17 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:39:17 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:39:20 ===E(<0.204.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:39:20 ===E(<0.204.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=INFO REPORT==== 2013-11-01 12:40:13 ===I(<0.254.0>:db_agent_log:69) : insert_log_online Now:1383280813 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-11-01 12:40:18 ===E(<0.170.0>:game_server_reader:231) : Lost player connection cmd : 11004 reason timeout 
+

@@ -1,0 +1,42 @@
+
+=INFO REPORT==== 2013-11-01 12:41:55 ===I(<0.47.0>:game_server:19) : 2013-11-01 12:41:55 start initing server 254...
+
+
+=INFO REPORT==== 2013-11-01 12:41:58 ===I(<0.47.0>:game_server:109) : 2013-11-01 12:41:58 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-11-01 12:41:58 ===I(<0.47.0>:game_server:212) : 2013-11-01 12:41:58 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-11-01 12:41:58 ===I(<0.47.0>:game_server:57) : 2013-11-01 12:41:58 initing end server 254...
+
+
+=ERROR REPORT==== 2013-11-01 12:42:00 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:42:00 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:42:00 ===E(<0.176.0>:db_esql:215) : [db_error] Sql: insert into `contact` set `uid`='1800000013329',`contact_list`='[]', ErrCode:1264, ErrState:22003, Reason:Out of range value for column 'uid' at row 1
+
+=ERROR REPORT==== 2013-11-01 12:42:02 ===E(<0.204.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:42:02 ===E(<0.204.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:42:02 ===E(<0.210.0>:db_esql:215) : [db_error] Sql: insert into `contact` set `uid`='1800000013327',`contact_list`='[]', ErrCode:1264, ErrState:22003, Reason:Out of range value for column 'uid' at row 1
+
+=INFO REPORT==== 2013-11-01 12:42:58 ===I(<0.255.0>:db_agent_log:69) : insert_log_online Now:1383280978 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-11-01 12:43:04 ===E(<0.170.0>:game_server_reader:231) : Lost player connection cmd : 11004 reason timeout 
+
+
+=ERROR REPORT==== 2013-11-01 12:43:37 ===E(<0.260.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:43:37 ===E(<0.260.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:43:37 ===E(<0.266.0>:db_esql:215) : [db_error] Sql: insert into `contact` set `uid`='1800000013329',`contact_list`='[]', ErrCode:1264, ErrState:22003, Reason:Out of range value for column 'uid' at row 1

@@ -1,0 +1,146 @@
+%- 玩家关系信息
+%- 分类号：14
+%- 描述：好友信息，黑名单信息
+%-------------------------------------------------
+% 关系模块 错误返回码
+%-------------------------------------------------
+%-define(RELA_UNKNOWN_ERROR, 0).          %%未知错误功能(如客户端错误行为或参数)
+%-define(RELA_ALREADY_FRIEND, 2).         %%已经是好友
+%-define(RELA_ALREADY_FOE, 3).            %%已经是仇人
+%-define(RELA_MAX_FRIEND_REACH, 4).       %%最大好友数达到
+%-define(RELA_MAX_FOE_REACH, 5).          %%最大仇人数达到
+%-define(RELA_IN_FOE_LIST, 6).            %%加仇人为好友
+%-define(RELA_IN_FRIEND_LIST, 7).         %%加好友为仇人
+%-define(RELA_INVALID_UID, 8).            %%非法的玩家ID
+%-define(RELA_NOT_FRIEND, 9).             %%不是好友
+%-define(RELA_NOT_FOE, 10).               %%不是仇人
+%-define(RELA_NOT_RECENT, 11).            %%不是最近联系人
+%-define(RELA_FRIEND_OFFLINE, 12).        %%好友不在线
+%-define(RELA_MAX_BLESS_TIMES_REACH, 13). %%祝福次数用完
+%-define(RELA_INVALID_NAME, 14).          %%无效的玩家名
+%-define(RELA_INVALID_PLAYER,15).           %%无效玩家
+%-define(RELA_MAX_BLACK_REACH, 16).        %%最大黑名单人数达到
+%-define(RELA_ALREADY_BlACK, 17).         %%已经是黑名单了
+%-define(RELA_FLOWER_NOT_AVAILABLE,18).	 %%鲜花类型不合法
+%-define(RELA_FLOWER_NOT_ENOUGHT,19).	 %%鲜花数量不足
+%-define(RELA_OUT_OF_AVAILABLE,20).	 %%超过每天可免费送花次数
+%-------------------------------------------------
+
+%------------------------------------------
+%Protocol: 14001 好友列表
+%------------------------------------------
+c >> s:
+s >> c:   
+    array { FriendList
+        int:64  Uid         好友id
+        string  Name        好友姓名 
+	int:8 PlayerPic     好友头像
+        int:16  FriendShip  友好度
+	int:16 FlowerNum    收到的鲜花
+    }
+end
+ 
+%------------------------------------------
+%Protocol: 14003 获取仇人列表
+%------------------------------------------
+c >> s:
+s >> c:
+    array { FoeList 仇人列表
+        int:64  Uid         仇人id
+        string  Name        仇人姓名 
+	int:8	PlayerPic     仇人头像
+        int:16  FriendShip  仇人度
+    }
+end
+
+%------------------------------------------
+%Protocol: 14005 获取黑名单列表
+%------------------------------------------
+c >> s:
+s >> c:
+    array { FoeList 黑名单列表
+        int:64  Uid         玩家id
+        string  Name        玩家姓名 
+	int:8 PlayerPic     玩家头像 
+    }
+end
+
+%------------------------------------------
+%Protocol: 14011 加好友
+%------------------------------------------
+c >> s:
+    int:64 Uid   添加的玩家ID
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+
+%------------------------------------------
+%Protocol: 14014 删除好友
+%------------------------------------------
+c >> s:
+    int:64 Uid   要删除玩家ID
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+
+%------------------------------------------
+%Protocol: 14015 加到仇恨名单中
+%------------------------------------------
+c >> s:
+    int:64 Uid   添加的玩家ID
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+
+%------------------------------------------
+%Protocol: 14016 从仇恨名单清除
+%------------------------------------------
+c >> s:
+    int:64 Uid   玩家ID
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+%---------------------------------------
+%Protocol: 14017 加黑名单
+%--------------------------------------
+c >> s:
+    int:64 Uid   玩家ID
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+%---------------------------------------
+%Protocol: 14018 删除黑名单
+%--------------------------------------
+c >> s:
+    int:64 Uid   玩家ID
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+%---------------------------------------
+%Protocol: 14019 赠送免费鲜花
+%---------------------------------------
+c >> s:
+    int:64 Uid   玩家ID
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+%---------------------------------------
+%Protocol: 14020 赠送鲜花
+%---------------------------------------
+c >> s:
+    int:64 Uid   玩家ID
+    int:32 FlowerId 鲜花id
+    int:16 FlowerNum 鲜花数量
+s >> c:
+    int:8 Result 失败0 成功1 参考关系模块 错误返回码
+end
+%---------------------------------------
+%Protocol: 14021 现实玩家鲜花数量
+%---------------------------------------
+c >> s:
+s >> c: 
+        int:16  Flower_1     鲜花1数量
+	int:16	Flower_9     鲜花9数量
+        int:16  Flower_99    鲜花99数量 
+	int:16  Flower_999   鲜花999数量
+end

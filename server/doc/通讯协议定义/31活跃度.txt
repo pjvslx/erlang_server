@@ -1,0 +1,48 @@
+%- 角色信息协议定义：
+%-     分类号:31
+%-     描述: 用户信息
+%- 返回码定义：
+%-define(SUCCESS, 1).				%%操作成功
+%-define(CONFIG_ERROR, 2).			%%配置出错 
+%-define(TARGET_NOT_FINISH, 3).		%%目标并未完成
+%-define(ALREADY_FETCH_VALUE, 4).	%%已经领取过活跃值
+%-define(ALREADY_REWARD, 5).			%%已经领取过奖励了
+%-define(POINT_NOT_ENOUGH, 6).		%%点数不够
+
+%------------------------------------------
+%Protocol: 31000 获取玩家活跃度信息
+%------------------------------------------
+c >> s:
+s >> c:
+		int:32 TotalActiveValue		总的活跃度值
+		array	{ ActiveList				活跃度信息列表
+				int:16	ActiveId			活跃度ID
+				int:16  FinishNum 		已完成次数
+				int:8		HasReward			1:已经奖励过了 0:还未奖励过
+				int:8  critical				1:暴击 0:未暴击
+			}
+				
+		array	{	RewardList				已领取的宝箱ID
+				int:8	BoxId
+			}
+				
+%------------------------------------------
+%Protocol: 31001 领取活跃度值
+%------------------------------------------
+c >> s:
+		int:8 	BType								大类ID
+		int:8 	SType								小类ID
+s >> c:
+		int:8 	StCode							返回码参考上述定义
+		int:8 	Critical						1:暴击 0:不暴击
+		int:32	TotalValue					当前活跃度总值
+		int:8 	BType								大类ID
+		int:8 	SType								小类ID						
+		
+%------------------------------------------
+%Protocol: 31002 领取宝箱奖励
+%------------------------------------------
+c >> s:
+		int:8	 BoxId								宝箱ID
+s >> c:
+		int:8		StCode							返回码参考上述定义

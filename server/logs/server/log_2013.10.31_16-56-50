@@ -1,0 +1,167 @@
+
+=INFO REPORT==== 2013-10-31 16:56:50 ===I(<0.47.0>:game_server:19) : 2013-10-31 16:56:50 start initing server 254...
+
+
+=INFO REPORT==== 2013-10-31 16:56:52 ===I(<0.47.0>:game_server:109) : 2013-10-31 16:56:52 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-31 16:56:52 ===I(<0.47.0>:game_server:212) : 2013-10-31 16:56:52 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-31 16:56:52 ===I(<0.47.0>:game_server:57) : 2013-10-31 16:56:52 initing end server 254...
+
+
+=ERROR REPORT==== 2013-10-31 16:57:16 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 16:57:16 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=INFO REPORT==== 2013-10-31 16:57:52 ===I(<0.262.0>:db_agent_log:69) : insert_log_online Now:1383209872 OnlineNum:1 
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.285.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.285.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.284.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.4011>,
+                                                                              389,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.293.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.293.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.292.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.4012>,
+                                                                              395,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.301.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 16:58:08 ===E(<0.301.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 16:58:39 ===E(<0.301.0>:mod_player:145) : 处理消息[11004]出异常：{error,badarg,
+                                                              [{ets,lookup,
+                                                                [ets_contact,
+                                                                 1800000013332],
+                                                                []},
+                                                               {lib_contact,
+                                                                get_online_player_contact,
+                                                                1,
+                                                                [{file,
+                                                                  "src/lib/lib_contact.erl"},
+                                                                 {line,54}]},
+                                                               {lib_contact,
+                                                                add_contact,2,
+                                                                [{file,
+                                                                  "src/lib/lib_contact.erl"},
+                                                                 {line,63}]},
+                                                               {lib_chat,
+                                                                chat_private,
+                                                                4,
+                                                                [{file,
+                                                                  "src/lib/lib_chat.erl"},
+                                                                 {line,87}]},
+                                                               {pp_chat,
+                                                                handle,3,
+                                                                [{file,
+                                                                  "src/pp/pp_chat.erl"},
+                                                                 {line,101}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,
+                                                                  588}]}]}
+
+=ERROR REPORT==== 2013-10-31 16:58:52 ===E(<0.301.0>:mod_player:145) : 处理消息[11004]出异常：{error,badarg,
+                                                              [{ets,lookup,
+                                                                [ets_contact,
+                                                                 1800000013332],
+                                                                []},
+                                                               {lib_contact,
+                                                                get_online_player_contact,
+                                                                1,
+                                                                [{file,
+                                                                  "src/lib/lib_contact.erl"},
+                                                                 {line,54}]},
+                                                               {lib_contact,
+                                                                add_contact,2,
+                                                                [{file,
+                                                                  "src/lib/lib_contact.erl"},
+                                                                 {line,63}]},
+                                                               {lib_chat,
+                                                                chat_private,
+                                                                4,
+                                                                [{file,
+                                                                  "src/lib/lib_chat.erl"},
+                                                                 {line,87}]},
+                                                               {pp_chat,
+                                                                handle,3,
+                                                                [{file,
+                                                                  "src/pp/pp_chat.erl"},
+                                                                 {line,101}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,
+                                                                  588}]}]}
+
+=ERROR REPORT==== 2013-10-31 17:00:00 ===E(<0.300.0>:game_server_reader:231) : Lost player connection cmd : 11004 reason timeout 
+
+
+=ERROR REPORT==== 2013-10-31 17:00:23 ===E(<0.301.0>:mod_player:145) : 处理消息[11004]出异常：{error,badarg,
+                                                              [{ets,lookup,
+                                                                [ets_contact,
+                                                                 1800000013332],
+                                                                []},
+                                                               {lib_contact,
+                                                                get_online_player_contact,
+                                                                1,
+                                                                [{file,
+                                                                  "src/lib/lib_contact.erl"},
+                                                                 {line,54}]},
+                                                               {lib_contact,
+                                                                add_contact,2,
+                                                                [{file,
+                                                                  "src/lib/lib_contact.erl"},
+                                                                 {line,63}]},
+                                                               {lib_chat,
+                                                                chat_private,
+                                                                4,
+                                                                [{file,
+                                                                  "lib_chat.erl"},
+                                                                 {line,87}]}]}

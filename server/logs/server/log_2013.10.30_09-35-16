@@ -1,0 +1,15 @@
+
+=INFO REPORT==== 2013-10-30 09:35:16 ===I(<0.47.0>:game_server:19) : 2013-10-30 09:35:16 start initing server 254...
+
+
+=INFO REPORT==== 2013-10-30 09:35:18 ===I(<0.47.0>:game_server:109) : 2013-10-30 09:35:18 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-30 09:35:18 ===I(<0.47.0>:game_server:212) : 2013-10-30 09:35:18 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-30 09:35:18 ===I(<0.47.0>:game_server:57) : 2013-10-30 09:35:18 initing end server 254...
+
+
+=INFO REPORT==== 2013-10-30 09:36:18 ===I(<0.170.0>:db_agent_log:69) : insert_log_online Now:1383096978 OnlineNum:0 
+

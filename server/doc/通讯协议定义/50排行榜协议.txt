@@ -1,0 +1,167 @@
+%-分类号:50
+%-描述: 排行榜
+
+%------------------------------------------
+%Protocol: 50001 玩家排行榜
+%------------------------------------------
+c >> s:
+	int:8 Flag 查询标识 1.查看前五名 2.查看自己排名以及自己附近排名
+	int:8 type 排行榜类型 1.等级排行榜 2.战力排行榜 10.武器排行 21.坐骑排行榜 31.宠物战力 51.帮派等级排行榜 61.副本霸主 72.鲜花总榜
+%--------------------------------------
+%-	战力排行榜
+%--------------------------------------
+s >> c:  
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+    array { DungeonList    副本霸主列表
+		int:8  Rank	   排名
+		int:64 Id      玩家id
+		string Nick    玩家姓名
+		int:8   Gender     玩家性别
+		int:8   Career     玩家职业
+		string  GuildName  玩家帮派名
+		int:16  MaxForce   最高战力
+		int:16  AdoreCount 崇拜次数 
+		array{  EquitList  装备列表
+			int:64 gid  装备实例id
+			int:32 gtid 模板装备id
+		}   
+    } 
+%--------------------------------------
+%-	等级排行榜
+%--------------------------------------
+s >> c:  
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+    array { DungeonList    副本霸主列表
+		int：8  Rank	   排名
+		int:64 Id      玩家id
+		string  Nick	   玩家姓名
+		int:8   Gender     玩家性别
+		int:8	Vip        vip
+		int:8   Career     玩家职业
+		int:8	Level	   玩家等级
+		string  GuildName  玩家帮派名 
+    }
+end  
+%---------------------------------------
+%- 	副本霸主排行榜
+%---------------------------------------
+s >> c:  <<Muid:64,Score:16,Nick_StrBin/binary,Name_StrBin/binary,KingrEwards_ABinData/binary>>
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+    array { DungeonList    副本霸主列表
+		int:64  Muid	   霸主id
+		int:16  Score      副本得分
+		string  Nick	   玩家姓名
+		string  DungeonName 副本名 
+		array{  EquitList  装备列表
+			int:32 gid 装备id
+			int:8 Num  装备数量
+		}   
+    }
+end
+%-------------------------------------
+%-	宠物排行榜
+%-------------------------------------
+s>>c:
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+    array{
+	int:8 Rank 排名
+	int:64 Id  玩家id
+	int:32 CurrentFacade 当前外观
+	array{  EquitList  装备列表
+			int:64 gid  装备实例id
+			int:32 gtid 模板装备id
+		} 
+	string PetName 宠物名称
+	int:32 Fighting 宠物战力
+	int:32 Attack   宠物普攻
+	int:32 AttrAttack 宠物属攻
+	int:16 Crit		宠物
+	int:16 Hit		命中
+	string Nick		玩家名称
+	int:16 AdoreCount 崇拜次数
+	}
+%-------------------------------------
+%-	坐骑排行榜
+%------------------------------------
+ s>>c:
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+	array{
+	int:8 Rank 排名
+	int:64 Uid 玩家id
+	int:16 Level 坐骑品阶
+	int:16 Start 坐骑星阶
+	string Nick  玩家名称
+	int:16 AdoreCount 崇拜次数
+	array{
+		int:32 SkillId 技能id
+		int:8  SkillLv 技能等级
+		int:16 Exp     当前技能经验
+	} 
+	}
+		
+%-------------------------------------
+%-	帮派等级排行榜
+%------------------------------------
+s>>c:
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+	array{
+		int:32 Rank排名
+		String Name帮派名字
+		int:8 Vip帮主vip等级
+		int:8 Sex帮主性别
+		String Name帮主名字
+		int:8 Level帮派等级
+		}
+
+%-------------------------------------
+%-	鲜花排行榜
+%-------------------------------------
+s>>c:
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+	array{
+		int:32 Rank排名
+		int:8 vip等级
+		int:8 Sex性别
+		String Name玩家名字
+		int:32 Flower总魅力值
+		}
+
+%-------------------------------------
+%-	武器排行榜
+%-------------------------------------
+s>>c:
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+	array{
+		int:32 Rank排名
+		String Name玩家名字
+		int:32 EquipScore装备评分
+		}
+			
+%-------------------------------------
+%-	昨日鲜花排行榜
+%-------------------------------------
+	s >> c:  
+	int:8 Flag 查询标识
+	int:8 type 排行榜类型
+    array {
+		int:8  Rank	   排名
+		int:64 Id      玩家id
+		string Nick    玩家姓名
+		int:8   Gender     玩家性别
+		int:8   Career     玩家职业
+		string  GuildName  玩家帮派名
+		int:16  FlowerNum  昨日鲜花
+		int:16  AdoreCount 崇拜次数 
+		array{  EquitList  装备列表
+			int:64 gid  装备实例id
+			int:32 gtid 模板装备id
+		}   
+    }

@@ -1,0 +1,15 @@
+
+1、更新server.app 和 server.config 文件，server.app的一些参数同步到了server.config
+
+2、server.config 里面有几个关键的参数、在开服的时候一定要填写正确
+   server_num 		: 服务器号（唯一）
+   gateway_node		: 中央网关列表，在该服务器启动或者停机维护的时候，需要同步状态到中央网关
+   domain			 ：服务器所属大区号
+   open_time		: 开服时间
+   
+3、启动脚本 server[服务器编号].bat 里面的内容中 节点名 一定是 game_server[服务器编号@IP，
+       其中的服务器编号一定不要填错 , 当然这里的服务器节点名也可以自己命名，但要保证全局唯一。
+       
+4、退出任何一个服务器，执行 misc_admin:safe_quit().
+
+

@@ -1,0 +1,2 @@
+erl -name uu@127.0.0.1  -setcookie luyang -eval "rpc:call('game_server172@192.168.43.172',u,c,[]),q()"
+erl -name uu@127.0.0.1  -setcookie luyang -eval "rpc:call('game_server172@192.168.43.172',u,u,[]),q()."

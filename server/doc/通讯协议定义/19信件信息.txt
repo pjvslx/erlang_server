@@ -1,0 +1,84 @@
+%-信件, 反馈
+%-分类号: 19
+%-
+%%-------------------------------------------------
+%% 邮件/GM模块 错误返回码
+%%-------------------------------------------------
+%-define(MAIL_OTHER_ERROR,           0).  %% 其它错误
+%-define(MAIL_WRONG_TITLE,           2).  %% 标题错误
+%-define(MAIL_WRONG_CONTENT,         3).  %% 内容错误
+%-define(MAIL_WRONG_NAME,            4).  %% 无合法收件人
+%-define(MAIL_BOX_FULL,              5).  %% 对方邮件已满
+%-define(MAIL_NOT_ENOUGH_SPACE,      6).  %% 背包已满
+%-define(MAIL_ATTACH_NOT_EXIST,      7).  %% 信件中不存在附件
+%-define(MAIL_GOODS_NOT_EXIST,       8).  %% 信件中物品已提取
+%-define(MAIL_WRONG_ID,              9).  %% 信件ID有误
+%%-------------------------------------------------
+
+%---------------------------------------------
+%Protocol: 19001 玩家反馈到GM
+%---------------------------------------------
+c >> s:
+    int:8  Type    类型1Bug 2投诉 3 建议 4其它
+    string Content 内容
+s >> c:
+    int:8 Result  状态0失败,1成功
+end
+
+%---------------------------------------------
+%Protocol: 19002  获取GM反馈
+%---------------------------------------------
+c >> s:
+s >> c:
+    array { FbList      反馈列表
+     int:32 FbId        反馈ID
+     int:8  Type        类型
+     int:8  State       状态1已回复,0未回复
+     array { ContentList    内容列表
+            string Name     名字(NICK or GM)
+            string Content  内容/回复内容
+            int32  Date     时间(1970-01-01以来秒数)
+         }
+    }
+end
+       
+%--------------------------------
+%Protocol: 19010  是否有未读邮件
+%--------------------------------
+c >> s
+s >> c
+    int:8  Type  未读邮件类型(0没有新邮件，其他为未读邮件类型)
+end    
+
+%--------------------------------
+%Protocol: 19011  邮件列表
+%--------------------------------
+c >> s:
+s >> c:
+    array {  MailList      邮件列表
+            int:32 MailId  信件id
+            int:8  Type    信件类型(发送模块)
+            int:32 Time    时间戳(发送时间)
+            int:16 Content 邮件正文ID
+            array { GoodList  物品列表
+                int:64 GoodsId  物品ID(物品ID与类型ID必有一不为0,如果均不为0,以物品ID为准)
+                int:32 GoodTypeId  物品类型ID
+                int:8  GoodsNum    物品数量
+            }
+            array { ParamList   内容参数
+            	String	替换文本
+            }
+    }
+end
+
+%--------------------------------
+%Protocol: 19012 领取附件并删除
+%--------------------------------
+c >> s:
+    int:32 MailId  信件id
+s >> c:
+    int:8 Result  0失败 1成功  2背包已满 3附件不存在 4物品不存在
+end
+
+
+

@@ -1,0 +1,2 @@
+
+=ERROR REPORT==== 2013-10-30 16:32:00 ===E(<0.103.0>:db_esql:215) : [db_error] Sql: insert into `server_player` set `uid`='1800000013327',`accid`='881222',`serv_id`='254',`domain`='1',`acc_name`='luyang',`nick`='孟静白',`sex`='1',`career`='1',`lv`='1',`icon`='0',`last_login`='1383121920', ErrCode:1062, ErrState:23000, Reason:Duplicate entry '1800000013327' for key 'PRIMARY'

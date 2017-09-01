@@ -1,0 +1,283 @@
+%- 角色信息协议定义：
+%-     分类号:13
+%-     描述: 用户信息
+%- 返回码定义：
+%-     0: 未定义错误  1：成功
+
+%------------------------------------------
+%Protocol: 13000 玩家自身信息(FULL)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:64 Uid                 用户ID
+    int:8  Gender              性别
+    int:8  Level               等级
+    int:8  Career              职业
+    int:8  Camp                阵营(国籍)
+    int:8  Vip                 VIP类型
+    int:8  Icon                玩家头像ID
+    int:16 SceneId             场景唯一ID
+    int:8  X                   X坐标
+    int:8  Y                   Y坐标
+    int:16 Liveness            活跃度    
+    int:32 Exp                 经验
+    int:32 ExpMax              经验上限
+    int:32 Lilian              历练值    
+    int:32 Gold                元宝
+    int:32 BGold               绑定元宝    
+    int:32 Coin                铜币    
+    int:32 BCoin               绑定铜币
+    int:32 Force							 战力
+    int:32 Hp                  生命力
+    int:32 HpMax               生命力上限
+    int:8  Combopoint          连击点数
+    int:8  CombopointMax       最大连击点数
+    int:32 Magic               法力值    
+    int:32 MagicMax            法力值上限    
+    int:32 Anger               怒气值    
+    int:32 AngerMax            怒气值上限
+    int:32 Attack              普通攻击力    
+    int:32 Defense             普通防御力
+    int:32 Abs_damage          绝对伤害值    
+    int:32 Fattack             仙攻值
+    int:32 Mattack             魔攻值    
+    int:32 Dattack             妖攻值
+    int:32 Fdefense            仙防值
+    int:32 Mdefense            魔防值
+    int:32 Ddefense            妖防值
+    int:8  Speed               移动速度    
+    int:8  Attack_speed        攻击速度    
+    int:16 Hit_ratio           命中等级(万分比)
+    int:16 Dodge_ratio         闪避等级(万分比)    
+    int:16 Crit_ratio          暴击等级(万分比)    
+    int:16 Tough_ratio         坚韧等级(万分比)
+    int:16 Frozen_resis_ratio  冰冻抗性率(帮派技能引入)    
+    int:16 Weak_resis_ratio    虚弱抗性率(帮派技能引入)    
+    int:16 Flaw_resis_ratio    破绽抗性率(帮派技能引入)    
+    int:16 Poison_resis_ratio  中毒抗性率(帮派技能引入)    
+    int:32 Ignore_defense      攻方忽略防方普防值(武魂引入)
+    int:32 Ignore_fdefense     攻方忽略防方仙防值(武魂引入)
+    int:32 Ignore_mdefense     攻方忽略防方魔防值(武魂引入)
+    int:32 Ignore_ddefense     攻方忽略防方妖防值(武魂引入)
+    string Name                玩家名
+    int:32 Weapon              武器
+    int:32 Armor               盔甲
+    int:32 Fashion             时装
+    int:32 WwaponAcc           武饰
+    int:32 Wing                翅膀
+    int:32 Mount               战骑
+    int:8  WeaponStrenLv       武器强化等级
+    int:8  ArmorStrenLv        盔甲强化等级
+    int:8  FashionStrenLv      时装强化等级
+    int:8  WwaponAccStrenLv    武饰强化等级
+    int:8  WingStrenLv         翅膀强化等级
+    int:8  PetStatus 					 宠物状态
+		int:8  PetQualityLv			 	 宠物品阶
+		int:16 PetFacade 					 宠物外观
+		string PetName 						 宠物名字
+		int:16 _energyChangeRate
+		int:16 mountFashionId			 坐骑幻化ID
+end
+
+
+
+%------------------------------------------
+%Protocol: 13001 查询玩家自身信息(基本)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:64 Uid     用户ID
+    int:8  Gender  性别
+    int:8  Level   等级
+    int:8  Career  职业
+    int:8  Speed   移动速度    
+    int:16 SceneId 场景唯一ID
+    int:8  X       X坐标
+    int:8  Y       Y坐标
+    int:32 Hp      生命力
+    int:32 HpMax   生命力上限
+    int:32 Exp     经验
+    int:32 ExpMax  经验上限
+    int:32 Gold    元宝
+    int:32 BGold   绑定元宝    
+    int:32 Coin    铜币
+    int:32 BCoin   绑定铜币
+    string Name    玩家名
+end
+
+%------------------------------------------
+%Protocol: 13002 查看其他玩家
+%------------------------------------------
+c >> s:
+    int:64 Uid  玩家ID
+s >> c:
+    int:8  StCode  返回1下列字段才有效,否则为错误码
+    int:8  OnlineFlag          在线标记1:在线, 0:不在线
+    int:64 Uid                 用户ID
+    int:8  Gender              性别
+    int:8  Level               等级
+    int:8  Career              职业
+    int:8  Camp                阵营(国籍)
+    int:8  Vip                 VIP类型
+    int:8  Icon                玩家头像ID
+    int:16 SceneId             场景唯一ID
+    int:8  X                   X坐标
+    int:8  Y                   Y坐标
+    int:16 Liveness            活跃度    
+    int:32 Exp                 经验
+    int:32 ExpMax              经验上限
+    int:32 Lilian              历练值    
+    int:32 Gold                元宝
+    int:32 BGold               绑定元宝    
+    int:32 Coin                铜币    
+    int:32 BCoin               绑定铜币
+    int:32 Force							 战力
+    int:32 Hp                  生命力
+    int:32 HpMax               生命力上限
+    int:8  Combopoint          连击点数
+    int:32 Magic               法力值    
+    int:32 MagicMax            法力值上限    
+    int:32 Anger               怒气值    
+    int:32 AngerMax            怒气值上限
+    int:32 Attack              普通攻击力    
+    int:32 Defense             普通防御力
+    int:32 Abs_damage          绝对伤害值    
+    int:32 Fattack             仙攻值
+    int:32 Mattack             魔攻值    
+    int:32 Dattack             妖攻值
+    int:32 Fdefense            仙防值
+    int:32 Mdefense            魔防值
+    int:32 Ddefense            妖防值
+    int:8  Speed               移动速度    
+    int:8  Attack_speed        攻击速度    
+    int:16 Hit_ratio           命中等级(万分比)
+    int:16 Dodge_ratio         闪避等级(万分比)    
+    int:16 Crit_ratio          暴击等级(万分比)    
+    int:16 Tough_ratio         坚韧等级(万分比)
+    string Name  玩家名
+end
+
+%------------------------------------------
+%Protocol: 13003 更新玩家信息(战斗力)
+%------------------------------------------
+c >> s:
+s >> c:
+		int:32 Force							 战力
+    int:32 Exp                 经验
+    int:32 ExpMax              经验上限
+    int:32 Hp                  生命力
+    int:32 HpMax               生命力上限
+    int:8  Combopoint          连击点数
+    int:8  CombopointMax       最大连击点数
+    int:32 Magic               法力值    
+    int:32 MagicMax            法力值上限    
+    int:32 Anger               怒气值    
+    int:32 AngerMax            怒气值上限
+    int:32 Attack              普通攻击力    
+    int:32 Defense             普通防御力
+    int:32 Abs_damage          绝对伤害值    
+    int:32 Fattack             仙攻值
+    int:32 Mattack             魔攻值    
+    int:32 Dattack             妖攻值
+    int:32 Fdefense            仙防值
+    int:32 Mdefense            魔防值
+    int:32 Ddefense            妖防值
+    int:8  Speed               移动速度    
+    int:8  Attack_speed        攻击速度    
+    int:16 Hit_ratio           命中等级(万分比)
+    int:16 Dodge_ratio         闪避等级(万分比)    
+    int:16 Crit_ratio          暴击等级(万分比)    
+    int:16 Tough_ratio         坚韧等级(万分比)
+end    
+
+%------------------------------------------
+%Protocol: 13004 更新玩家战斗信息(基本)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:32 Hp                  生命力
+    int:32 HpMax               生命力上限
+    int:8  Combopoint          连击点数
+    int:8  CombopointMax       最大连击点数
+    int:32 Magic               法力值    
+    int:32 MagicMax            法力值上限    
+    int:32 Anger               怒气值    
+    int:32 AngerMax            怒气值上限
+end    
+
+%------------------------------------------
+%Protocol: 13005 更新玩家信息(金钱)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:32 Gold    元宝
+    int:32 BGold   绑定元宝    
+    int:32 Coin    铜币
+    int:32 BCoin   绑定铜币
+end    
+
+%------------------------------------------
+%Protocol: 13006 关键常用玩家信息(金钱,经验)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:32 Exp     经验
+    int:32 Lilian  历练值    
+    int:32 Coin    铜币
+    int:32 BCoin   绑定铜币
+    int:32 Gold    元宝
+    int:32 BGold   绑定元宝    
+end
+
+%------------------------------------------
+%Protocol: 13007 玩家升级
+%------------------------------------------
+s >> c:
+		int:32 Force							 战力
+    int:8  OldLevel            旧等级
+    int:8  NewLevel            新等级
+    int:32 Exp                 经验
+    int:32 ExpMax              经验上限
+    int:32 Hp                  生命力
+    int:32 HpMax               生命力上限
+    int:8  Combopoint          连击点数
+    int:8  CombopointMax       最大连击点数
+    int:32 Magic               法力值    
+    int:32 MagicMax            法力值上限    
+    int:32 Anger               怒气值    
+    int:32 AngerMax            怒气值上限
+    int:32 Attack              普通攻击力    
+    int:32 Defense             普通防御力
+    int:32 Abs_damage          绝对伤害值    
+    int:32 Fattack             仙攻值
+    int:32 Mattack             魔攻值    
+    int:32 Dattack             妖攻值
+    int:32 Fdefense            仙防值
+    int:32 Mdefense            魔防值
+    int:32 Ddefense            妖防值
+    int:8  Speed               移动速度    
+    int:8  Attack_speed        攻击速度    
+    int:16 Hit_ratio           命中等级(万分比)
+    int:16 Dodge_ratio         闪避等级(万分比)    
+    int:16 Crit_ratio          暴击等级(万分比)    
+    int:16 Tough_ratio         坚韧等级(万分比)
+end    
+
+%------------------------------------------
+%Protocol: 13010 刷新属性
+%------------------------------------------
+s >> c:
+    int:8 Code  要刷新的属性(1刷新人物属性 2刷新背包 3宠物装备 4刷新货币)
+end
+
+
+%------------------------------------------
+%Protocol: 13021 刷新帮派成员的属性值
+%%帮派id,帮派名，帮派职位
+%------------------------------------------
+s >> c:
+       int:32    guildId           帮派id
+       string    guildName		   帮派名
+	   int:8     guildPostion      帮派职位
+end
+

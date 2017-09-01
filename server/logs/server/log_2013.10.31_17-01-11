@@ -1,0 +1,306 @@
+
+=INFO REPORT==== 2013-10-31 17:01:11 ===I(<0.47.0>:game_server:19) : 2013-10-31 17:01:11 start initing server 254...
+
+
+=INFO REPORT==== 2013-10-31 17:01:13 ===I(<0.47.0>:game_server:109) : 2013-10-31 17:01:13 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-31 17:01:13 ===I(<0.47.0>:game_server:212) : 2013-10-31 17:01:13 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-31 17:01:13 ===I(<0.47.0>:game_server:57) : 2013-10-31 17:01:13 initing end server 254...
+
+
+=ERROR REPORT==== 2013-10-31 17:02:09 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:02:09 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=INFO REPORT==== 2013-10-31 17:02:13 ===I(<0.202.0>:db_agent_log:69) : insert_log_online Now:1383210133 OnlineNum:1 
+
+
+=ERROR REPORT==== 2013-10-31 17:04:22 ===E(<0.204.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:04:22 ===E(<0.204.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:04:45 ===E(<0.211.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013334
+
+=ERROR REPORT==== 2013-10-31 17:04:50 ===E(<0.214.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-31 17:05:11 ===E(<0.211.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3880>,
+                                                                              158,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:05:14 ===E(<0.203.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3804>,
+                                                                              62,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=INFO REPORT==== 2013-10-31 17:07:09 ===I(<0.254.0>:db_agent_log:111) : insert_log_scene_online Now:1383210429
+
+
+=INFO REPORT==== 2013-10-31 17:07:13 ===I(<0.256.0>:db_agent_log:69) : insert_log_online Now:1383210433 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-31 17:12:09 ===I(<0.259.0>:db_agent_log:111) : insert_log_scene_online Now:1383210729
+
+
+=INFO REPORT==== 2013-10-31 17:12:13 ===I(<0.261.0>:db_agent_log:69) : insert_log_online Now:1383210733 OnlineNum:1 
+
+
+=ERROR REPORT==== 2013-10-31 17:13:08 ===E(<0.263.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-31 17:13:26 ===E(<0.271.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:13:26 ===E(<0.271.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:13:47 ===E(<0.262.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.4000>,
+                                                                              350,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:13:48 ===E(<0.270.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.4009>,
+                                                                              212,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:14:09 ===E(<0.365.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:14:09 ===E(<0.365.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:15:00 ===E(<0.364.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.4070>,
+                                                                              383,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:15:44 ===E(<0.170.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3563>,
+                                                                              375,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=INFO REPORT==== 2013-10-31 17:17:09 ===I(<0.376.0>:db_agent_log:111) : insert_log_scene_online Now:1383211029
+
+
+=INFO REPORT==== 2013-10-31 17:17:13 ===I(<0.378.0>:db_agent_log:69) : insert_log_online Now:1383211033 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 17:22:09 ===I(<0.379.0>:db_agent_log:111) : insert_log_scene_online Now:1383211329
+
+
+=INFO REPORT==== 2013-10-31 17:22:13 ===I(<0.381.0>:db_agent_log:69) : insert_log_online Now:1383211333 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 17:27:09 ===I(<0.382.0>:db_agent_log:111) : insert_log_scene_online Now:1383211629
+
+
+=INFO REPORT==== 2013-10-31 17:27:13 ===I(<0.384.0>:db_agent_log:69) : insert_log_online Now:1383211633 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-31 17:32:09 ===I(<0.385.0>:db_agent_log:111) : insert_log_scene_online Now:1383211929
+
+
+=INFO REPORT==== 2013-10-31 17:32:13 ===I(<0.387.0>:db_agent_log:69) : insert_log_online Now:1383211933 OnlineNum:0 
+
+
+=ERROR REPORT==== 2013-10-31 17:32:50 ===E(<0.389.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:32:50 ===E(<0.389.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:33:47 ===E(<0.396.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-31 17:36:31 ===E(<0.395.0>:game_server_reader:231) : Lost player connection cmd : 11004 reason timeout 
+
+
+=INFO REPORT==== 2013-10-31 17:37:09 ===I(<0.490.0>:db_agent_log:111) : insert_log_scene_online Now:1383212229
+
+
+=INFO REPORT==== 2013-10-31 17:37:13 ===I(<0.492.0>:db_agent_log:69) : insert_log_online Now:1383212233 OnlineNum:1 
+
+
+=ERROR REPORT==== 2013-10-31 17:37:34 ===E(<0.388.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.4082>,
+                                                                              558,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:38:45 ===E(<0.496.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:38:45 ===E(<0.496.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:39:42 ===E(<0.578.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:39:42 ===E(<0.578.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:39:42 ===E(<0.495.0>:game_server_reader:256) : Lost player connection in other reason {'EXIT',
+                                                                              #Port<0.6572>,
+                                                                              normal} 
+
+
+=ERROR REPORT==== 2013-10-31 17:39:58 ===E(<0.588.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:39:58 ===E(<0.588.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:39:58 ===E(<0.577.0>:game_server_reader:256) : Lost player connection in other reason {'EXIT',
+                                                                              #Port<0.7539>,
+                                                                              normal} 
+
+
+=ERROR REPORT==== 2013-10-31 17:40:01 ===E(<0.587.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.7548>,
+                                                                              625,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:40:02 ===E(<0.596.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:40:02 ===E(<0.596.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:40:26 ===E(<0.605.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:40:26 ===E(<0.605.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=INFO REPORT==== 2013-10-31 17:42:09 ===I(<0.618.0>:db_agent_log:111) : insert_log_scene_online Now:1383212529
+
+
+=INFO REPORT==== 2013-10-31 17:42:13 ===I(<0.620.0>:db_agent_log:69) : insert_log_online Now:1383212533 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-10-31 17:44:22 ===E(<0.595.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.7553>,
+                                                                              718,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:44:23 ===E(<0.604.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.7563>,
+                                                                              701,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:44:34 ===E(<0.701.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:44:34 ===E(<0.701.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:44:34 ===E(<0.700.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.9440>,
+                                                                              724,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:44:34 ===E(<0.708.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:44:34 ===E(<0.708.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:45:21 ===E(<0.720.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:45:21 ===E(<0.720.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:46:51 ===E(<0.707.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.9442>,
+                                                                              775,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=INFO REPORT==== 2013-10-31 17:47:09 ===I(<0.728.0>:db_agent_log:111) : insert_log_scene_online Now:1383212829
+
+
+=INFO REPORT==== 2013-10-31 17:47:13 ===I(<0.730.0>:db_agent_log:69) : insert_log_online Now:1383212833 OnlineNum:1 
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.732.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.732.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.738.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.738.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.731.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.9485>,
+                                                                              825,
+                                                                              {error,
+                                                                               enotsock}} 
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.744.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.744.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-31 17:47:30 ===E(<0.737.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.9486>,
+                                                                              826,
+                                                                              {error,
+                                                                               enotsock}} 
+
+
+=INFO REPORT==== 2013-10-31 17:52:09 ===I(<0.757.0>:db_agent_log:111) : insert_log_scene_online Now:1383213129
+
+
+=INFO REPORT==== 2013-10-31 17:52:13 ===I(<0.759.0>:db_agent_log:69) : insert_log_online Now:1383213133 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-10-31 17:52:34 ===E(<0.719.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.9472>,
+                                                                              843,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=INFO REPORT==== 2013-10-31 17:57:09 ===I(<0.763.0>:db_agent_log:111) : insert_log_scene_online Now:1383213429
+
+
+=INFO REPORT==== 2013-10-31 17:57:13 ===I(<0.765.0>:db_agent_log:69) : insert_log_online Now:1383213433 OnlineNum:1 
+

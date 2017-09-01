@@ -1,0 +1,48 @@
+================ 新手引导信息 ===========
+分类号:17
+描述:新手引导信息
+
+########## 获取新手引导信息 ##############
+协议号:17000
+c >> s:
+s >> c:
+		array{Navi_List
+				int:32 SecondNaviId
+				int:32 ThirdNaviId
+		}
+		array{Open_List
+			int:32 SecondNaviId
+			int:32 ThirdNaviId
+			}
+		array{
+			int:16 leaderId
+			}
+		
+			
+########## 更新新手引导信息 ##############
+协议号:17001
+c >> s:
+		int:32 SecondNaviId
+		int:32 ThirdNaviId
+s >> c:
+
+########## 功能开启 ##############
+协议号:17002
+c >> s:
+s >> c:
+		array{
+			int:32 SecondNaviId
+			int:32 ThirdNaviId
+		}
+
+########## 技能操作引导 ##############
+协议号:17003
+c >> s:
+	int:16 leaderId
+	int:8  state
+s >> c:
+  int:8 state  1:开 2:关
+  int:8 result 1:成功 0:失败
+  int:16 leaderId 引导ID
+	
+		

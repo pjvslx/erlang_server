@@ -1,0 +1,24 @@
+%-分类号:22
+%-描述: Buff
+
+%------------------------------------------
+%Protocol: 22000 Buff列表
+%------------------------------------------
+c >> s:
+s >> c:
+    array { Buff1List     BUFF列表(单次Buff)
+        int:8  BuffId     BUFF ID
+        int:32 CdTime     过期时间      
+    }
+    array { Buff2List     BUFF2列表周期性Buff
+        int:8  BuffId     BUFFID
+        int:32 CdTime     下次生效时间      
+        int:8  Times      剩余次数
+    }
+    array { Buff3List     BUFF3列表(可叠加BUFF)
+        int:8  BuffId     BUFF ID
+        int:32 CdTime     过期时间      
+        int:32 RemNum     剩余数量
+    }
+end
+

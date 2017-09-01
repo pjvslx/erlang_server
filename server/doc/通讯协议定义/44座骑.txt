@@ -1,0 +1,183 @@
+%-分类号:44
+%-描述:座骑
+
+%%%-------------------------------------------------
+%%%座骑错误返回码
+%%%-------------------------------------------------
+%-define(MOUNT_ERROR,               0). %%系统繁忙
+%-define(MOUNT_OK,                  1). %%成功
+%-define(MOUNT_LEVEL_NOT_ENOUGH,    2). %%等级不够
+%-define(MOUNT_COIN_NOT_ENOUGH,     3). %%铜币不够
+%-define(MOUNT_MAX_LEVEL,           4). %%座骑达到最大阶级
+%-define(MOUNT_MAX_STAR,            5). %%座骑达到最大星级
+%-define(MOUNT_MAX_SKILL_LEVEL,     6). %%技能达到最大等级
+%-define(MOUNT_FASHION_NOT_EXIST,   7). %%幻化不存在或已过期
+%-define(MOUNT_NOGOOD_FOR_LEVEL,    8). %%升星符不够
+%-define(MOUNT_NOGOOD_FOR_STAR,     9). %%升阶符不够
+%-define(MOUNT_NOSTAR_FOR_LEVEL,   10). %%星阶不够
+%-define(MOUNT_GOLD_NOT_ENOUGH,    11). %%金币不够
+%-define(MOUNT_NOT_ON_MOUNT,       12). %%不在骑上
+-define(MOUNT_ALREADY_ONMOUNT,    13). %%已经在骑上
+-define(MOUNT_AUTOBUY_NOT_ENOUGH, 14). %%身上的货币不足以支付材料
+-define(MOUNT_COST_FASHION_FAIL,15).   %%消耗幻化卡失败
+-define(MOUNT_FASHION_NOT_ACTIVE,16).  %%幻化形象没激活
+-define(MOUNT_FASHION_UNVALIDE,17).    %%幻化形象非法
+%%%-------------------------------------------------
+
+%------------------------------------------
+%Protocol: 44000 获取座骑信息 
+%------------------------------------------
+c >> s:
+s >> c:
+    int:8  StCode   无座骑0(后面字段无效) 1成功(后面字段有效)
+    int:8  Level    座骑等级
+    int:8  Star     座骑星级
+    int:32 Exp      座骑经验值
+    int:16  Fashion  当前幻化
+    int:16 距离下一次技能升级所需元宝
+    int:8  Riding   状态1:骑 0或其他休息
+    array { SkillList   当前学习的技能
+        int:8  SkillId  技能ID
+        int:8  SkillLv  技能等级
+        int:32 SkillExp  技能当前经验值
+    }
+    array { FashionList     可以幻化列表
+        int:8   FashId      幻化ID
+        int:32  ExpireTime  过期时间(秒, 0为不过期(永久))
+    }
+    array { OldFashionList  已经过期的幻化列表
+        int:8   FashId      幻化ID
+        int:32  ExpireTime  过期时间(秒, 0为不过期(永久))
+    }
+end
+
+%------------------------------------------
+%Protocol: 44001 升级技能 
+%------------------------------------------
+c >> s:
+		int:1 单次 2:批量
+s >> c:
+    int:8 StCode 0失败; 1成功; 0(后面字段无效) 1成功(后面字段有效) 6:技能已经满级 11：元宝不足
+   	Array
+   	{
+   		int:8 CodeA	1~7(对应第一个卡牌随机出来的技能ID 7:随机出来的是EXP样式的卡牌)
+	    int:8 CodeB	1~7(对应第一个卡牌随机出来的技能ID 7:随机出来的是EXP样式的卡牌)
+	    int:8 CodeC	1~7(对应第三个卡牌随机出来的技能ID 7:随机出来的是EXP样式的卡牌)
+	    int:8 CodeD	1~7(对应第四个卡牌随机出来的技能ID 7:随机出来的是EXP样式的卡牌)
+	    array
+	    {
+	    		int:8 	SkillId			技能ID
+	    		int:8		Lv					技能等级
+	    		int:32	Exp					技能经验
+	    }
+   	}
+    
+end
+
+%------------------------------------------
+%Protocol: 44002 确认技能升级(刷新技能经验)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:8 StCode 0失败; 1成功 0(后面字段无效) 1成功(后面字段有效)
+    array { SkillList   当前学习的技能
+        int:8  SkillId  技能ID
+        int:8  SkillLv  技能等级
+        int:16 SkillExp  技能当前经验值
+    }
+end
+
+%------------------------------------------
+%Protocol: 44003 换装
+%------------------------------------------
+c >> s:
+    int:8  FashId  幻化ID
+s >> c:
+    int:8 Result 0失败; 1成功; 2铜币不足 3:没有幻化
+end
+
+%------------------------------------------
+%Protocol: 44004 上坐骑(休息)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:8 Result 0失败; 1成功; 
+    int:16 fashionId 幻化ID
+end
+
+%------------------------------------------
+%Protocol: 44005 下坐骑(休息)
+%------------------------------------------
+c >> s:
+s >> c:
+    int:8 Result 0失败; 1成功; 
+end
+
+%------------------------------------------
+%Protocol: 44006 升星
+%------------------------------------------
+c >> s:
+		int:8 autoBuy    0:非自动购买材料 1:自动购买材料
+		int:8 batchUpgrade 0:非批量升星 1:批量升星
+s >> c:
+    int:8 StCode   　0失败; 1成功; 0(后面字段无效) 1成功(后面字段有效)
+    int:8 Type     　升星类型1: 普通, 2:暴发 
+    int:16 NewExp  　新经验值
+    int:8  NewStar   新星级
+    int:64 BGold		 绑定元宝
+    int:64 Gold			 非绑定元宝
+end
+
+%------------------------------------------
+%Protocol: 44007 升阶
+%------------------------------------------
+c >> s:
+		int:8 autoBuy		 0:非自动购买材料 1:自动购买材料
+s >> c:
+    int:8 Result  0失败; 1成功; 
+    int:64 BGold   绑定元宝
+    int:64 Gold		 非绑定元宝
+end
+
+%------------------------------------------
+%Protocol: 44008 座骑
+%------------------------------------------
+s >> c:
+    int:64 Uid    玩家ID
+    int:8  OnOff  上座骑1: 下座骑0
+    int:16 FashionId  外观ID 
+end
+
+%------------------------------------------
+%Protocol: 44009 座骑
+%------------------------------------------
+s >> c:
+    int:32 MountStatus 1:开放 0:不开放
+end
+
+
+%------------------------------------------
+%Protocol: 44010 获取坐骑列表
+%------------------------------------------
+c >> s:
+s >> c:
+     array{ FacadeList
+			int:16 Facade 幻化形象id 
+			int:32 NewExpriedTime 剩余时间
+			int:8 Avilable 是否可用 0.不可用 1.可用
+		  }
+end
+
+
+%------------------------------------------
+%Protocol: 44011 激活坐骑形象
+%------------------------------------------
+c >> s:
+	int:16 FanshionCard 幻化卡id
+s >> c:
+	int:8 Result 操作结果 100 成功 其他请看  错误返回码
+	int:16 Facade 当前形象
+end
+
+
+

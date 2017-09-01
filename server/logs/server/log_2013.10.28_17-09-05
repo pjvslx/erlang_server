@@ -1,0 +1,18 @@
+
+=INFO REPORT==== 2013-10-28 17:09:05 ===I(<0.47.0>:game_server:19) : 2013-10-28 17:09:05 start initing server 124...
+
+
+=INFO REPORT==== 2013-10-28 17:09:07 ===I(<0.47.0>:game_server:109) : 2013-10-28 17:09:07 mod_guild is started, pid: <0.158.0>...
+
+
+=INFO REPORT==== 2013-10-28 17:09:07 ===I(<0.47.0>:game_server:212) : 2013-10-28 17:09:07 mod_team is started, pid: <0.166.0>...
+
+
+=INFO REPORT==== 2013-10-28 17:09:07 ===I(<0.47.0>:game_server:57) : 2013-10-28 17:09:07 initing end server 124...
+
+
+=ERROR REPORT==== 2013-10-28 17:09:19 ===E(<0.171.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013262
+
+=ERROR REPORT==== 2013-10-28 17:09:29 ===E(<0.180.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013263
+
+=ERROR REPORT==== 2013-10-28 17:09:30 ===E(<0.180.0>:pp_account:57) : 11111 10003 s->c code = 6  createRoleId = 2147412785

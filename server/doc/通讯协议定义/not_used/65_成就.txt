@@ -1,0 +1,100 @@
+%------------------------------------------
+%Protocol: 65000 成就奖励项
+%------------------------------------------
+c >> s:
+s >> c:
+    int:16  AwardNum     总可领奖数
+end    
+
+%------------------------------------------
+%Protocol: 65001 成就总览
+%------------------------------------------
+c >> s:
+s >> c:
+    int:8    Result     结果(0 失败 1 成功)
+    int:16   AchiNum    成就点数
+    int:16   TitleNum   获得称号个数 
+    int:32   HpLim      已获得血量上限
+    int:32   Gold       已获得元宝数
+    array {  AchiOverview  各成就子类完成度
+        int:8  AchiType     成就类型 1: 角色，2：整体 3：装备 4：宠物巨兽 5：PVE、PVP
+        int:32 Progress     阶段完成度
+        int:32 Target       阶段进度目标
+        int:32 GoodsId      物品Id
+        int:8  GoodsNum     物品数量
+        int:8  AwardState   奖励状态（0：无, 1：有）
+        int:8  AwardNum     可领奖数
+    }
+end    
+
+%------------------------------------------
+%Protocol: 65002 成就类型详细信息
+%------------------------------------------
+c >> s:
+    int:8    AchiType       成就类型 1: 角色，2：整体 3：装备 4：宠物巨兽 5：PVE、PVP
+s >> c:
+    int:8    Result         结果(0 失败 1 成功)
+    array {  AchiDetail     各成就子项完成度
+        int:8  Index        在成就类型中的排序，从1号开始编号。
+        int:8  ItemId       子项Id （服务端使用）
+        int:8  PhaseId      阶段编号 （服务端使用）
+        int:32 Progress     阶段完成度
+        int:32 Target       阶段进度目标
+        int:8  AwardState   奖励状态（0：无, 1：有，2:已领奖）
+    }
+end    
+
+%------------------------------------------
+%Protocol: 65003 最近成就
+%------------------------------------------
+c >> s:
+s >> c:
+    int:8    Result         结果(0 失败 1 成功)
+    array {  RecentAchi     最近成就类型列表
+        int:8  AchiType     成就类型 1: 角色，2：整体 3：装备 4：宠物巨兽 5：PVE、PVP
+        int:8  Index        在成就类型中的排序，从1号开始编号。
+        int:8  ItemId       子项Id
+        int:8  PhaseId      阶段Id
+    }
+end    
+
+%------------------------------------------
+%Protocol: 65004 领取奖励
+%------------------------------------------
+c >> s:
+    int:8    ItemId       子项Id 
+    int:8    PhaseId      阶段Id 
+s >> c:
+    int:8  Result       结果(0 失败 1 成功 2 无奖, 3 已领，4 无此项成就)
+    int:8  ItemId       子项Id 
+    int:8  PhaseId      阶段Id 
+end    
+
+
+%------------------------------------------
+%Protocol: 65005 成就追踪
+%------------------------------------------
+c >> s:
+    int:8    ItemId       子项Id 
+    int:8    PhaseId      阶段Id 
+s >> c:
+    int:8  Result       结果(0 失败 1 成功)
+    int:8  ItemId       子项Id 
+    int:8  PhaseId      阶段Id 
+end    
+
+
+%------------------------------------------
+%Protocol: 65006 领取成就点数奖励
+%------------------------------------------
+c >> s:
+    int:8  AchiType     成就类型 1: 角色，2：整体 3：装备 4：宠物巨兽 5：PVE、PVP
+s >> c:
+    int:8  Result       结果(0 失败 1 成功 2 无奖, 3 已领完，4 无此项成就 5 背包满)
+    int:8  AchiType     成就类型 1: 角色，2：整体 3：装备 4：宠物巨兽 5：PVE、PVP
+    int:32 Progress     阶段完成度
+    int:32 Target       阶段进度目标
+    int:32 GoodsId      物品Id
+    int:8  GoodsNum     物品数量    
+    int:8  AwardState   奖励状态（0：无, 1：有）    
+end    

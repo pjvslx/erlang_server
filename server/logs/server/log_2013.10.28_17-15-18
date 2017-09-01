@@ -1,0 +1,68 @@
+
+=INFO REPORT==== 2013-10-28 17:15:18 ===I(<0.47.0>:game_server:19) : 2013-10-28 17:15:18 start initing server 124...
+
+
+=INFO REPORT==== 2013-10-28 17:15:19 ===I(<0.47.0>:game_server:109) : 2013-10-28 17:15:19 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-28 17:15:19 ===I(<0.47.0>:game_server:212) : 2013-10-28 17:15:19 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-28 17:15:19 ===I(<0.47.0>:game_server:57) : 2013-10-28 17:15:19 initing end server 124...
+
+
+=ERROR REPORT==== 2013-10-28 17:15:42 ===E(<0.171.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=INFO REPORT==== 2013-10-28 17:16:19 ===I(<0.202.0>:db_agent_log:69) : insert_log_online Now:1382951779 OnlineNum:1 
+
+
+=ERROR REPORT==== 2013-10-28 17:17:25 ===E(<0.206.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3848>,
+                                                                              83,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-28 17:17:32 ===E(<0.215.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-28 17:18:37 ===E(<0.213.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3849>,
+                                                                              115,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-28 17:18:54 ===E(<0.226.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3874>,
+                                                                              121,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-28 17:19:00 ===E(<0.235.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=INFO REPORT==== 2013-10-28 17:20:32 ===I(<0.242.0>:db_agent_log:111) : insert_log_scene_online Now:1382952032
+
+
+=ERROR REPORT==== 2013-10-28 17:20:39 ===E(<0.234.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3875>,
+                                                                              144,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-28 17:20:57 ===E(<0.247.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3887>,
+                                                                              150,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-28 17:21:02 ===E(<0.256.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=INFO REPORT==== 2013-10-28 17:21:19 ===I(<0.263.0>:db_agent_log:69) : insert_log_online Now:1382952079 OnlineNum:2 
+

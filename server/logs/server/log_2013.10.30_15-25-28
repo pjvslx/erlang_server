@@ -1,0 +1,372 @@
+
+=INFO REPORT==== 2013-10-30 15:25:28 ===I(<0.47.0>:game_server:19) : 2013-10-30 15:25:28 start initing server 254...
+
+
+=INFO REPORT==== 2013-10-30 15:25:30 ===I(<0.47.0>:game_server:109) : 2013-10-30 15:25:30 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-30 15:25:30 ===I(<0.47.0>:game_server:212) : 2013-10-30 15:25:30 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-30 15:25:30 ===I(<0.47.0>:game_server:57) : 2013-10-30 15:25:30 initing end server 254...
+
+
+=ERROR REPORT==== 2013-10-30 15:25:48 ===E(<0.170.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013327
+
+=ERROR REPORT==== 2013-10-30 15:25:53 ===E(<0.173.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-30 15:25:55 ===E(<0.170.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3563>,
+                                                                              48,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-30 15:26:02 ===E(<0.207.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013328
+
+=ERROR REPORT==== 2013-10-30 15:26:11 ===E(<0.210.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-30 15:26:24 ===E(<0.222.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=INFO REPORT==== 2013-10-30 15:26:30 ===I(<0.229.0>:db_agent_log:69) : insert_log_online Now:1383117990 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-10-30 15:26:55 ===E(<0.221.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3914>,
+                                                                              110,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-30 15:28:32 ===E(<0.357.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-30 15:29:50 ===E(<0.357.0>:mod_player:145) : 处理消息[14011]出异常：{error,undef,
+                                                              [{lib_notice,
+                                                                send_bubble_msg,
+                                                                [3,1,
+                                                                 [1800000013327,
+                                                                  [229,173,
+                                                                   159,233,
+                                                                   157,153,
+                                                                   231,153,
+                                                                   189],
+                                                                  1800000013328]],
+                                                                []},
+                                                               {lib_relation,
+                                                                add_friend_list,
+                                                                2,
+                                                                [{file,
+                                                                  "src/lib/lib_relation.erl"},
+                                                                 {line,187}]},
+                                                               {pp_relation,
+                                                                handle_cmd,3,
+                                                                [{file,
+                                                                  "src/pp/pp_relation.erl"},
+                                                                 {line,69}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,588}]},
+                                                               {proc_lib,
+                                                                init_p_do_apply,
+                                                                3,
+                                                                [{file,
+                                                                  "proc_lib.erl"},
+                                                                 {line,
+                                                                  227}]}]}
+
+=INFO REPORT==== 2013-10-30 15:30:49 ===I(<0.456.0>:db_agent_log:111) : insert_log_scene_online Now:1383118249
+
+
+=INFO REPORT==== 2013-10-30 15:31:30 ===I(<0.490.0>:db_agent_log:69) : insert_log_online Now:1383118290 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-10-30 15:32:14 ===E(<0.356.0>:game_server_reader:231) : Lost player connection cmd : 14011 reason timeout 
+
+
+=ERROR REPORT==== 2013-10-30 15:32:32 ===E(<0.357.0>:mod_player:145) : 处理消息[14011]出异常：{error,undef,
+                                                              [{lib_notice,
+                                                                send_bubble_msg,
+                                                                [3,1,
+                                                                 [1800000013327,
+                                                                  [229,173,
+                                                                   159,233,
+                                                                   157,153,
+                                                                   231,153,
+                                                                   189],
+                                                                  1800000013328]],
+                                                                []},
+                                                               {lib_relation,
+                                                                add_friend_list,
+                                                                2,
+                                                                [{file,
+                                                                  "lib_relation.erl"},
+                                                                 {line,
+                                                                  187}]}]}
+
+=ERROR REPORT==== 2013-10-30 15:32:43 ===E(<0.506.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 15:32:43 ===E(<0.506.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 15:34:28 ===E(<0.505.0>:game_server_reader:231) : Lost player connection cmd : 11005 reason timeout 
+
+
+=INFO REPORT==== 2013-10-30 15:35:49 ===I(<0.565.0>:db_agent_log:111) : insert_log_scene_online Now:1383118549
+
+
+=ERROR REPORT==== 2013-10-30 15:36:15 ===E(<0.570.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013329
+
+=ERROR REPORT==== 2013-10-30 15:36:21 ===E(<0.573.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=INFO REPORT==== 2013-10-30 15:36:30 ===I(<0.594.0>:db_agent_log:69) : insert_log_online Now:1383118590 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-10-30 15:36:41 ===E(<0.610.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 15:36:41 ===E(<0.610.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 15:37:30 ===E(<0.573.0>:mod_player:145) : 处理消息[14011]出异常：{error,undef,
+                                                              [{lib_notice,
+                                                                send_bubble_msg,
+                                                                [3,1,
+                                                                 [1800000013329,
+                                                                  [233,128,
+                                                                   175,229,
+                                                                   136,157,
+                                                                   229,133,
+                                                                   176],
+                                                                  1800000013327]],
+                                                                []},
+                                                               {lib_relation,
+                                                                add_friend_list,
+                                                                2,
+                                                                [{file,
+                                                                  "src/lib/lib_relation.erl"},
+                                                                 {line,187}]},
+                                                               {pp_relation,
+                                                                handle_cmd,3,
+                                                                [{file,
+                                                                  "src/pp/pp_relation.erl"},
+                                                                 {line,69}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,588}]},
+                                                               {proc_lib,
+                                                                init_p_do_apply,
+                                                                3,
+                                                                [{file,
+                                                                  "proc_lib.erl"},
+                                                                 {line,
+                                                                  227}]}]}
+
+=ERROR REPORT==== 2013-10-30 15:37:41 ===E(<0.573.0>:mod_player:145) : 处理消息[14011]出异常：{error,undef,
+                                                              [{lib_notice,
+                                                                send_bubble_msg,
+                                                                [3,1,
+                                                                 [1800000013329,
+                                                                  [233,128,
+                                                                   175,229,
+                                                                   136,157,
+                                                                   229,133,
+                                                                   176],
+                                                                  1800000013327]],
+                                                                []},
+                                                               {lib_relation,
+                                                                add_friend_list,
+                                                                2,
+                                                                [{file,
+                                                                  "src/lib/lib_relation.erl"},
+                                                                 {line,187}]},
+                                                               {pp_relation,
+                                                                handle_cmd,3,
+                                                                [{file,
+                                                                  "src/pp/pp_relation.erl"},
+                                                                 {line,69}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,588}]},
+                                                               {proc_lib,
+                                                                init_p_do_apply,
+                                                                3,
+                                                                [{file,
+                                                                  "proc_lib.erl"},
+                                                                 {line,
+                                                                  227}]}]}
+
+=ERROR REPORT==== 2013-10-30 15:38:05 ===E(<0.570.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.7295>,
+                                                                              1224,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-30 15:38:19 ===E(<0.610.0>:mod_player:145) : 处理消息[14011]出异常：{error,undef,
+                                                              [{lib_notice,
+                                                                send_bubble_msg,
+                                                                [3,1,
+                                                                 [1800000013327,
+                                                                  [229,173,
+                                                                   159,233,
+                                                                   157,153,
+                                                                   231,153,
+                                                                   189],
+                                                                  1800000013328]],
+                                                                []},
+                                                               {lib_relation,
+                                                                add_friend_list,
+                                                                2,
+                                                                [{file,
+                                                                  "src/lib/lib_relation.erl"},
+                                                                 {line,187}]},
+                                                               {pp_relation,
+                                                                handle_cmd,3,
+                                                                [{file,
+                                                                  "src/pp/pp_relation.erl"},
+                                                                 {line,69}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,588}]},
+                                                               {proc_lib,
+                                                                init_p_do_apply,
+                                                                3,
+                                                                [{file,
+                                                                  "proc_lib.erl"},
+                                                                 {line,
+                                                                  227}]}]}
+
+=ERROR REPORT==== 2013-10-30 15:38:28 ===E(<0.610.0>:mod_player:145) : 处理消息[14011]出异常：{error,undef,
+                                                              [{lib_notice,
+                                                                send_bubble_msg,
+                                                                [3,1,
+                                                                 [1800000013327,
+                                                                  [229,173,
+                                                                   159,233,
+                                                                   157,153,
+                                                                   231,153,
+                                                                   189],
+                                                                  1800000013328]],
+                                                                []},
+                                                               {lib_relation,
+                                                                add_friend_list,
+                                                                2,
+                                                                [{file,
+                                                                  "src/lib/lib_relation.erl"},
+                                                                 {line,187}]},
+                                                               {pp_relation,
+                                                                handle_cmd,3,
+                                                                [{file,
+                                                                  "src/pp/pp_relation.erl"},
+                                                                 {line,69}]},
+                                                               {mod_player,
+                                                                routing,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,142}]},
+                                                               {mod_player,
+                                                                handle_call,3,
+                                                                [{file,
+                                                                  "src/mod/mod_player.erl"},
+                                                                 {line,199}]},
+                                                               {gen_server,
+                                                                handle_msg,5,
+                                                                [{file,
+                                                                  "gen_server.erl"},
+                                                                 {line,588}]},
+                                                               {proc_lib,
+                                                                init_p_do_apply,
+                                                                3,
+                                                                [{file,
+                                                                  "proc_lib.erl"},
+                                                                 {line,
+                                                                  227}]}]}
+
+=ERROR REPORT==== 2013-10-30 15:39:39 ===E(<0.769.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013330
+
+=ERROR REPORT==== 2013-10-30 15:39:43 ===E(<0.773.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=ERROR REPORT==== 2013-10-30 15:39:45 ===E(<0.609.0>:game_server_reader:231) : Lost player connection cmd : 14011 reason timeout 
+
+
+=ERROR REPORT==== 2013-10-30 15:39:57 ===E(<0.610.0>:mod_player:145) : 处理消息[14011]出异常：{error,undef,
+                                                              [{lib_notice,
+                                                                send_bubble_msg,
+                                                                [3,1,
+                                                                 [1800000013327,
+                                                                  [229,173,
+                                                                   159,233,
+                                                                   157,153,
+                                                                   231,153,
+                                                                   189],
+                                                                  1800000013328]],
+                                                                []},
+                                                               {lib_relation,
+                                                                add_friend_list,
+                                                                2,
+                                                                [{file,
+                                                                  "lib_relation.erl"},
+                                                                 {line,
+                                                                  187}]}]}
+
+=ERROR REPORT==== 2013-10-30 15:40:23 ===E(<0.210.0>:pt_14:249) : 2013-10-30 15:40:23_errorcmd_[14022] 
+
+=ERROR REPORT==== 2013-10-30 15:40:40 ===E(<0.210.0>:pt_14:249) : 2013-10-30 15:40:40_errorcmd_[14022] 
+
+=INFO REPORT==== 2013-10-30 15:40:49 ===I(<0.824.0>:db_agent_log:111) : insert_log_scene_online Now:1383118849
+

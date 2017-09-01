@@ -1,0 +1,77 @@
+
+=INFO REPORT==== 2013-10-30 16:31:18 ===I(<0.47.0>:game_server:19) : 2013-10-30 16:31:18 start initing server 254...
+
+
+=INFO REPORT==== 2013-10-30 16:31:20 ===I(<0.47.0>:game_server:109) : 2013-10-30 16:31:20 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-30 16:31:20 ===I(<0.47.0>:game_server:212) : 2013-10-30 16:31:20 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-30 16:31:20 ===I(<0.47.0>:game_server:57) : 2013-10-30 16:31:20 initing end server 254...
+
+
+=ERROR REPORT==== 2013-10-30 16:31:31 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 16:31:31 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 16:32:00 ===E(<0.170.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3563>,
+                                                                              78,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-30 16:32:15 ===E(<0.207.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 16:32:15 ===E(<0.207.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=INFO REPORT==== 2013-10-30 16:32:20 ===I(<0.213.0>:db_agent_log:69) : insert_log_online Now:1383121940 OnlineNum:1 
+
+
+=ERROR REPORT==== 2013-10-30 16:34:22 ===E(<0.206.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3895>,
+                                                                              156,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=INFO REPORT==== 2013-10-30 16:36:32 ===I(<0.223.0>:db_agent_log:111) : insert_log_scene_online Now:1383122191
+
+
+=INFO REPORT==== 2013-10-30 16:37:20 ===I(<0.225.0>:db_agent_log:69) : insert_log_online Now:1383122240 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 16:41:32 ===I(<0.227.0>:db_agent_log:111) : insert_log_scene_online Now:1383122491
+
+
+=INFO REPORT==== 2013-10-30 16:42:20 ===I(<0.229.0>:db_agent_log:69) : insert_log_online Now:1383122540 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 16:46:32 ===I(<0.230.0>:db_agent_log:111) : insert_log_scene_online Now:1383122792
+
+
+=INFO REPORT==== 2013-10-30 16:47:20 ===I(<0.232.0>:db_agent_log:69) : insert_log_online Now:1383122840 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 16:51:32 ===I(<0.233.0>:db_agent_log:111) : insert_log_scene_online Now:1383123092
+
+
+=INFO REPORT==== 2013-10-30 16:52:20 ===I(<0.235.0>:db_agent_log:69) : insert_log_online Now:1383123140 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 16:56:32 ===I(<0.236.0>:db_agent_log:111) : insert_log_scene_online Now:1383123392
+
+
+=INFO REPORT==== 2013-10-30 16:57:20 ===I(<0.238.0>:db_agent_log:69) : insert_log_online Now:1383123440 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 17:01:32 ===I(<0.239.0>:db_agent_log:111) : insert_log_scene_online Now:1383123691
+
+
+=INFO REPORT==== 2013-10-30 17:02:20 ===I(<0.241.0>:db_agent_log:69) : insert_log_online Now:1383123740 OnlineNum:0 
+

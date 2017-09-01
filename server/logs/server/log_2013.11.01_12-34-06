@@ -1,0 +1,44 @@
+
+=INFO REPORT==== 2013-11-01 12:34:06 ===I(<0.47.0>:game_server:19) : 2013-11-01 12:34:06 start initing server 254...
+
+
+=INFO REPORT==== 2013-11-01 12:34:09 ===I(<0.47.0>:game_server:109) : 2013-11-01 12:34:09 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-11-01 12:34:09 ===I(<0.47.0>:game_server:212) : 2013-11-01 12:34:09 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-11-01 12:34:09 ===I(<0.47.0>:game_server:57) : 2013-11-01 12:34:09 initing end server 254...
+
+
+=INFO REPORT==== 2013-11-01 12:35:09 ===I(<0.170.0>:db_agent_log:69) : insert_log_online Now:1383280509 OnlineNum:0 
+
+
+=ERROR REPORT==== 2013-11-01 12:36:03 ===E(<0.217.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:36:03 ===E(<0.217.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:36:36 ===E(<0.251.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:36:36 ===E(<0.251.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-11-01 12:37:09 ===E(<0.217.0>:mod_player:145) : 处理消息[11004]出异常：{error,badarg,
+                                                              [{ets,lookup,
+                                                                [ets_contact,
+                                                                 1800000013329],
+                                                                []},
+                                                               {lib_contact,
+                                                                get_online_player_contact,
+                                                                1,
+                                                                [{file,
+                                                                  "lib_contact.erl"},
+                                                                 {line,54}]},
+                                                               {lib_contact,
+                                                                add_contact,2,
+                                                                [{file,
+                                                                  "lib_contact.erl"},
+                                                                 {line,63}]}]}

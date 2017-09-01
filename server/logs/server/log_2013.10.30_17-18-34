@@ -1,0 +1,751 @@
+
+=INFO REPORT==== 2013-10-30 17:18:34 ===I(<0.47.0>:game_server:19) : 2013-10-30 17:18:34 start initing server 254...
+
+
+=INFO REPORT==== 2013-10-30 17:18:36 ===I(<0.47.0>:game_server:109) : 2013-10-30 17:18:36 mod_guild is started, pid: <0.157.0>...
+
+
+=INFO REPORT==== 2013-10-30 17:18:36 ===I(<0.47.0>:game_server:212) : 2013-10-30 17:18:36 mod_team is started, pid: <0.165.0>...
+
+
+=INFO REPORT==== 2013-10-30 17:18:36 ===I(<0.47.0>:game_server:57) : 2013-10-30 17:18:36 initing end server 254...
+
+
+=ERROR REPORT==== 2013-10-30 17:19:05 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 17:19:05 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 17:19:06 ===E(<0.202.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3825>,
+                                                                              47,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=ERROR REPORT==== 2013-10-30 17:19:08 ===E(<0.210.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=INFO REPORT==== 2013-10-30 17:19:36 ===I(<0.235.0>:db_agent_log:69) : insert_log_online Now:1383124776 OnlineNum:2 
+
+
+=ERROR REPORT==== 2013-10-30 17:19:49 ===E(<0.236.0>:pp_account:71) : 33333 10003 s->c code = 1  createRoleId = 1800000013331
+
+=ERROR REPORT==== 2013-10-30 17:19:56 ===E(<0.239.0>:lib_meridian:742) : wrong meridian_info in pid undefined 
+
+
+=INFO REPORT==== 2013-10-30 17:24:05 ===I(<0.430.0>:db_agent_log:111) : insert_log_scene_online Now:1383125045
+
+
+=INFO REPORT==== 2013-10-30 17:24:36 ===I(<0.433.0>:db_agent_log:69) : insert_log_online Now:1383125076 OnlineNum:3 
+
+
+=ERROR REPORT==== 2013-10-30 17:25:22 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: mattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 17:25:22 ===E(<0.171.0>:lib_pet:1129) : apply_effect: Unknown Key: dattack Value: 0
+
+
+=ERROR REPORT==== 2013-10-30 17:25:26 ===E(<0.171.0>:lib_pet:1259) : create pet failed, pet exist 
+
+
+=ERROR REPORT==== 2013-10-30 17:26:12 ===E(<0.174.0>:lib_battle:434) : error monster state [] 
+
+
+=ERROR REPORT==== 2013-10-30 17:26:17 ===E(<0.174.0>:lib_battle:434) : error monster state [] 
+
+
+=ERROR REPORT==== 2013-10-30 17:26:46 ===E(<0.174.0>:lib_battle:434) : error monster state [] 
+
+
+=INFO REPORT==== 2013-10-30 17:28:03 ===D(<0.174.0>:lib_scene:1321) : test_position_type fail for the reason:[function_clause]
+
+=INFO REPORT==== 2013-10-30 17:28:26 ===D(<0.174.0>:lib_scene:1321) : test_position_type fail for the reason:[function_clause]
+
+=ERROR REPORT==== 2013-10-30 17:28:31 ===E(<0.171.0>:lib_pet:1259) : create pet failed, pet exist 
+
+
+=INFO REPORT==== 2013-10-30 17:28:38 ===D(<0.174.0>:lib_scene:1321) : test_position_type fail for the reason:[function_clause]
+
+=INFO REPORT==== 2013-10-30 17:28:39 ===D(<0.174.0>:lib_scene:1321) : test_position_type fail for the reason:[function_clause]
+
+=INFO REPORT==== 2013-10-30 17:28:51 ===I(<0.995.0>:db_agent_log:104) : insert_log_dungeon Now:1383125331
+
+
+=INFO REPORT==== 2013-10-30 17:29:05 ===I(<0.1024.0>:db_agent_log:111) : insert_log_scene_online Now:1383125345
+
+
+=ERROR REPORT==== 2013-10-30 17:29:31 ===E(<0.170.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3563>,
+                                                                              1877,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=INFO REPORT==== 2013-10-30 17:29:36 ===I(<0.1038.0>:db_agent_log:69) : insert_log_online Now:1383125376 OnlineNum:2 
+
+
+=INFO REPORT==== 2013-10-30 17:30:26 ===I(<0.1039.0>:db_agent_log:111) : insert_log_scene_online Now:1383125426
+
+
+=INFO REPORT==== 2013-10-30 17:34:05 ===I(<0.1043.0>:db_agent_log:111) : insert_log_scene_online Now:1383125645
+
+
+=INFO REPORT==== 2013-10-30 17:34:36 ===I(<0.1045.0>:db_agent_log:69) : insert_log_online Now:1383125676 OnlineNum:2 
+
+
+=INFO REPORT==== 2013-10-30 17:35:26 ===I(<0.1046.0>:db_agent_log:111) : insert_log_scene_online Now:1383125726
+
+
+=INFO REPORT==== 2013-10-30 17:39:05 ===I(<0.1050.0>:db_agent_log:111) : insert_log_scene_online Now:1383125945
+
+
+=INFO REPORT==== 2013-10-30 17:39:36 ===I(<0.1052.0>:db_agent_log:69) : insert_log_online Now:1383125976 OnlineNum:2 
+
+
+=INFO REPORT==== 2013-10-30 17:40:26 ===I(<0.1054.0>:db_agent_log:111) : insert_log_scene_online Now:1383126026
+
+
+=INFO REPORT==== 2013-10-30 17:44:05 ===I(<0.1057.0>:db_agent_log:111) : insert_log_scene_online Now:1383126245
+
+
+=INFO REPORT==== 2013-10-30 17:44:36 ===I(<0.1059.0>:db_agent_log:69) : insert_log_online Now:1383126276 OnlineNum:2 
+
+
+=INFO REPORT==== 2013-10-30 17:45:26 ===I(<0.1061.0>:db_agent_log:111) : insert_log_scene_online Now:1383126326
+
+
+=ERROR REPORT==== 2013-10-30 17:45:45 ===E(<0.209.0>:game_server_reader:256) : Lost player connection in other reason {inet_async,
+                                                                              #Port<0.3826>,
+                                                                              1893,
+                                                                              {error,
+                                                                               closed}} 
+
+
+=INFO REPORT==== 2013-10-30 17:49:05 ===I(<0.1064.0>:db_agent_log:111) : insert_log_scene_online Now:1383126545
+
+
+=INFO REPORT==== 2013-10-30 17:49:36 ===I(<0.1066.0>:db_agent_log:69) : insert_log_online Now:1383126576 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 17:50:26 ===I(<0.1067.0>:db_agent_log:111) : insert_log_scene_online Now:1383126626
+
+
+=INFO REPORT==== 2013-10-30 17:54:05 ===I(<0.1070.0>:db_agent_log:111) : insert_log_scene_online Now:1383126845
+
+
+=INFO REPORT==== 2013-10-30 17:54:36 ===I(<0.1072.0>:db_agent_log:69) : insert_log_online Now:1383126876 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 17:55:26 ===I(<0.1073.0>:db_agent_log:111) : insert_log_scene_online Now:1383126926
+
+
+=INFO REPORT==== 2013-10-30 17:59:05 ===I(<0.1076.0>:db_agent_log:111) : insert_log_scene_online Now:1383127145
+
+
+=INFO REPORT==== 2013-10-30 17:59:36 ===I(<0.1078.0>:db_agent_log:69) : insert_log_online Now:1383127176 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:00:26 ===I(<0.1079.0>:db_agent_log:111) : insert_log_scene_online Now:1383127226
+
+
+=INFO REPORT==== 2013-10-30 18:04:05 ===I(<0.1082.0>:db_agent_log:111) : insert_log_scene_online Now:1383127445
+
+
+=INFO REPORT==== 2013-10-30 18:04:36 ===I(<0.1084.0>:db_agent_log:69) : insert_log_online Now:1383127476 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:05:26 ===I(<0.1086.0>:db_agent_log:111) : insert_log_scene_online Now:1383127526
+
+
+=INFO REPORT==== 2013-10-30 18:09:05 ===I(<0.1088.0>:db_agent_log:111) : insert_log_scene_online Now:1383127745
+
+
+=INFO REPORT==== 2013-10-30 18:09:36 ===I(<0.1091.0>:db_agent_log:69) : insert_log_online Now:1383127776 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:10:26 ===I(<0.1092.0>:db_agent_log:111) : insert_log_scene_online Now:1383127826
+
+
+=INFO REPORT==== 2013-10-30 18:14:06 ===I(<0.1095.0>:db_agent_log:111) : insert_log_scene_online Now:1383128045
+
+
+=INFO REPORT==== 2013-10-30 18:14:36 ===I(<0.1097.0>:db_agent_log:69) : insert_log_online Now:1383128076 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:15:26 ===I(<0.1098.0>:db_agent_log:111) : insert_log_scene_online Now:1383128126
+
+
+=INFO REPORT==== 2013-10-30 18:19:06 ===I(<0.1101.0>:db_agent_log:111) : insert_log_scene_online Now:1383128345
+
+
+=INFO REPORT==== 2013-10-30 18:19:36 ===I(<0.1103.0>:db_agent_log:69) : insert_log_online Now:1383128376 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:20:26 ===I(<0.1104.0>:db_agent_log:111) : insert_log_scene_online Now:1383128426
+
+
+=INFO REPORT==== 2013-10-30 18:24:06 ===I(<0.1107.0>:db_agent_log:111) : insert_log_scene_online Now:1383128645
+
+
+=INFO REPORT==== 2013-10-30 18:24:36 ===I(<0.1109.0>:db_agent_log:69) : insert_log_online Now:1383128676 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:25:26 ===I(<0.1110.0>:db_agent_log:111) : insert_log_scene_online Now:1383128726
+
+
+=INFO REPORT==== 2013-10-30 18:29:06 ===I(<0.1113.0>:db_agent_log:111) : insert_log_scene_online Now:1383128945
+
+
+=INFO REPORT==== 2013-10-30 18:29:36 ===I(<0.1115.0>:db_agent_log:69) : insert_log_online Now:1383128976 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:30:26 ===I(<0.1116.0>:db_agent_log:111) : insert_log_scene_online Now:1383129026
+
+
+=INFO REPORT==== 2013-10-30 18:34:06 ===I(<0.1119.0>:db_agent_log:111) : insert_log_scene_online Now:1383129246
+
+
+=INFO REPORT==== 2013-10-30 18:34:36 ===I(<0.1121.0>:db_agent_log:69) : insert_log_online Now:1383129276 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 18:35:26 ===I(<0.1122.0>:db_agent_log:111) : insert_log_scene_online Now:1383129326
+
+
+=ERROR REPORT==== 2013-10-30 18:37:22 ===E(<0.236.0>:game_server_reader:249) : timeout Lost player connection 
+
+
+=INFO REPORT==== 2013-10-30 18:39:06 ===I(<0.1125.0>:db_agent_log:111) : insert_log_scene_online Now:1383129546
+
+
+=INFO REPORT==== 2013-10-30 18:39:36 ===I(<0.1127.0>:db_agent_log:69) : insert_log_online Now:1383129576 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 18:40:26 ===I(<0.1128.0>:db_agent_log:111) : insert_log_scene_online Now:1383129626
+
+
+=INFO REPORT==== 2013-10-30 18:44:06 ===I(<0.1130.0>:db_agent_log:111) : insert_log_scene_online Now:1383129845
+
+
+=INFO REPORT==== 2013-10-30 18:44:36 ===I(<0.1132.0>:db_agent_log:69) : insert_log_online Now:1383129876 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 18:45:26 ===I(<0.1133.0>:db_agent_log:111) : insert_log_scene_online Now:1383129926
+
+
+=INFO REPORT==== 2013-10-30 18:49:06 ===I(<0.1135.0>:db_agent_log:111) : insert_log_scene_online Now:1383130146
+
+
+=INFO REPORT==== 2013-10-30 18:49:36 ===I(<0.1137.0>:db_agent_log:69) : insert_log_online Now:1383130176 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 18:50:26 ===I(<0.1138.0>:db_agent_log:111) : insert_log_scene_online Now:1383130226
+
+
+=INFO REPORT==== 2013-10-30 18:54:06 ===I(<0.1140.0>:db_agent_log:111) : insert_log_scene_online Now:1383130446
+
+
+=INFO REPORT==== 2013-10-30 18:54:36 ===I(<0.1142.0>:db_agent_log:69) : insert_log_online Now:1383130476 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 18:55:26 ===I(<0.1143.0>:db_agent_log:111) : insert_log_scene_online Now:1383130526
+
+
+=INFO REPORT==== 2013-10-30 18:59:06 ===I(<0.1145.0>:db_agent_log:111) : insert_log_scene_online Now:1383130745
+
+
+=INFO REPORT==== 2013-10-30 18:59:36 ===I(<0.1147.0>:db_agent_log:69) : insert_log_online Now:1383130776 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:00:26 ===I(<0.1148.0>:db_agent_log:111) : insert_log_scene_online Now:1383130826
+
+
+=INFO REPORT==== 2013-10-30 19:04:06 ===I(<0.1150.0>:db_agent_log:111) : insert_log_scene_online Now:1383131046
+
+
+=INFO REPORT==== 2013-10-30 19:04:36 ===I(<0.1152.0>:db_agent_log:69) : insert_log_online Now:1383131076 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:05:26 ===I(<0.1153.0>:db_agent_log:111) : insert_log_scene_online Now:1383131126
+
+
+=INFO REPORT==== 2013-10-30 19:09:06 ===I(<0.1155.0>:db_agent_log:111) : insert_log_scene_online Now:1383131346
+
+
+=INFO REPORT==== 2013-10-30 19:09:36 ===I(<0.1157.0>:db_agent_log:69) : insert_log_online Now:1383131376 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:10:26 ===I(<0.1158.0>:db_agent_log:111) : insert_log_scene_online Now:1383131426
+
+
+=INFO REPORT==== 2013-10-30 19:14:06 ===I(<0.1160.0>:db_agent_log:111) : insert_log_scene_online Now:1383131646
+
+
+=INFO REPORT==== 2013-10-30 19:14:36 ===I(<0.1162.0>:db_agent_log:69) : insert_log_online Now:1383131676 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:15:26 ===I(<0.1163.0>:db_agent_log:111) : insert_log_scene_online Now:1383131726
+
+
+=INFO REPORT==== 2013-10-30 19:19:06 ===I(<0.1165.0>:db_agent_log:111) : insert_log_scene_online Now:1383131946
+
+
+=INFO REPORT==== 2013-10-30 19:19:36 ===I(<0.1167.0>:db_agent_log:69) : insert_log_online Now:1383131976 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:20:26 ===I(<0.1168.0>:db_agent_log:111) : insert_log_scene_online Now:1383132026
+
+
+=INFO REPORT==== 2013-10-30 19:24:06 ===I(<0.1170.0>:db_agent_log:111) : insert_log_scene_online Now:1383132246
+
+
+=INFO REPORT==== 2013-10-30 19:24:36 ===I(<0.1172.0>:db_agent_log:69) : insert_log_online Now:1383132276 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:25:26 ===I(<0.1173.0>:db_agent_log:111) : insert_log_scene_online Now:1383132326
+
+
+=INFO REPORT==== 2013-10-30 19:29:06 ===I(<0.1175.0>:db_agent_log:111) : insert_log_scene_online Now:1383132545
+
+
+=INFO REPORT==== 2013-10-30 19:29:36 ===I(<0.1177.0>:db_agent_log:69) : insert_log_online Now:1383132576 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:30:26 ===I(<0.1178.0>:db_agent_log:111) : insert_log_scene_online Now:1383132626
+
+
+=INFO REPORT==== 2013-10-30 19:34:06 ===I(<0.1180.0>:db_agent_log:111) : insert_log_scene_online Now:1383132846
+
+
+=INFO REPORT==== 2013-10-30 19:34:36 ===I(<0.1182.0>:db_agent_log:69) : insert_log_online Now:1383132876 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:35:26 ===I(<0.1183.0>:db_agent_log:111) : insert_log_scene_online Now:1383132926
+
+
+=INFO REPORT==== 2013-10-30 19:39:06 ===I(<0.1185.0>:db_agent_log:111) : insert_log_scene_online Now:1383133146
+
+
+=INFO REPORT==== 2013-10-30 19:39:36 ===I(<0.1187.0>:db_agent_log:69) : insert_log_online Now:1383133176 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:40:26 ===I(<0.1188.0>:db_agent_log:111) : insert_log_scene_online Now:1383133226
+
+
+=INFO REPORT==== 2013-10-30 19:44:06 ===I(<0.1190.0>:db_agent_log:111) : insert_log_scene_online Now:1383133446
+
+
+=INFO REPORT==== 2013-10-30 19:44:36 ===I(<0.1192.0>:db_agent_log:69) : insert_log_online Now:1383133476 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:45:26 ===I(<0.1193.0>:db_agent_log:111) : insert_log_scene_online Now:1383133526
+
+
+=INFO REPORT==== 2013-10-30 19:49:06 ===I(<0.1195.0>:db_agent_log:111) : insert_log_scene_online Now:1383133746
+
+
+=INFO REPORT==== 2013-10-30 19:49:36 ===I(<0.1197.0>:db_agent_log:69) : insert_log_online Now:1383133776 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:50:26 ===I(<0.1198.0>:db_agent_log:111) : insert_log_scene_online Now:1383133826
+
+
+=INFO REPORT==== 2013-10-30 19:54:06 ===I(<0.1200.0>:db_agent_log:111) : insert_log_scene_online Now:1383134046
+
+
+=INFO REPORT==== 2013-10-30 19:54:36 ===I(<0.1202.0>:db_agent_log:69) : insert_log_online Now:1383134076 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 19:55:26 ===I(<0.1203.0>:db_agent_log:111) : insert_log_scene_online Now:1383134126
+
+
+=INFO REPORT==== 2013-10-30 19:59:06 ===I(<0.1205.0>:db_agent_log:111) : insert_log_scene_online Now:1383134346
+
+
+=INFO REPORT==== 2013-10-30 19:59:36 ===I(<0.1207.0>:db_agent_log:69) : insert_log_online Now:1383134376 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:00:26 ===I(<0.1208.0>:db_agent_log:111) : insert_log_scene_online Now:1383134426
+
+
+=INFO REPORT==== 2013-10-30 20:04:06 ===I(<0.1210.0>:db_agent_log:111) : insert_log_scene_online Now:1383134646
+
+
+=INFO REPORT==== 2013-10-30 20:04:36 ===I(<0.1212.0>:db_agent_log:69) : insert_log_online Now:1383134676 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:05:26 ===I(<0.1213.0>:db_agent_log:111) : insert_log_scene_online Now:1383134726
+
+
+=INFO REPORT==== 2013-10-30 20:09:06 ===I(<0.1215.0>:db_agent_log:111) : insert_log_scene_online Now:1383134946
+
+
+=INFO REPORT==== 2013-10-30 20:09:36 ===I(<0.1217.0>:db_agent_log:69) : insert_log_online Now:1383134976 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:10:26 ===I(<0.1218.0>:db_agent_log:111) : insert_log_scene_online Now:1383135026
+
+
+=INFO REPORT==== 2013-10-30 20:14:06 ===I(<0.1220.0>:db_agent_log:111) : insert_log_scene_online Now:1383135246
+
+
+=INFO REPORT==== 2013-10-30 20:14:36 ===I(<0.1222.0>:db_agent_log:69) : insert_log_online Now:1383135276 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:15:26 ===I(<0.1223.0>:db_agent_log:111) : insert_log_scene_online Now:1383135326
+
+
+=INFO REPORT==== 2013-10-30 20:19:06 ===I(<0.1225.0>:db_agent_log:111) : insert_log_scene_online Now:1383135546
+
+
+=INFO REPORT==== 2013-10-30 20:19:36 ===I(<0.1227.0>:db_agent_log:69) : insert_log_online Now:1383135576 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:20:26 ===I(<0.1228.0>:db_agent_log:111) : insert_log_scene_online Now:1383135626
+
+
+=INFO REPORT==== 2013-10-30 20:24:06 ===I(<0.1230.0>:db_agent_log:111) : insert_log_scene_online Now:1383135846
+
+
+=INFO REPORT==== 2013-10-30 20:24:36 ===I(<0.1232.0>:db_agent_log:69) : insert_log_online Now:1383135876 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:25:26 ===I(<0.1233.0>:db_agent_log:111) : insert_log_scene_online Now:1383135926
+
+
+=INFO REPORT==== 2013-10-30 20:29:06 ===I(<0.1235.0>:db_agent_log:111) : insert_log_scene_online Now:1383136146
+
+
+=INFO REPORT==== 2013-10-30 20:29:36 ===I(<0.1237.0>:db_agent_log:69) : insert_log_online Now:1383136176 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:30:26 ===I(<0.1238.0>:db_agent_log:111) : insert_log_scene_online Now:1383136226
+
+
+=INFO REPORT==== 2013-10-30 20:34:06 ===I(<0.1240.0>:db_agent_log:111) : insert_log_scene_online Now:1383136446
+
+
+=INFO REPORT==== 2013-10-30 20:34:36 ===I(<0.1242.0>:db_agent_log:69) : insert_log_online Now:1383136476 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:35:26 ===I(<0.1243.0>:db_agent_log:111) : insert_log_scene_online Now:1383136526
+
+
+=INFO REPORT==== 2013-10-30 20:39:06 ===I(<0.1245.0>:db_agent_log:111) : insert_log_scene_online Now:1383136746
+
+
+=INFO REPORT==== 2013-10-30 20:39:36 ===I(<0.1247.0>:db_agent_log:69) : insert_log_online Now:1383136776 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:40:26 ===I(<0.1248.0>:db_agent_log:111) : insert_log_scene_online Now:1383136826
+
+
+=INFO REPORT==== 2013-10-30 20:44:06 ===I(<0.1250.0>:db_agent_log:111) : insert_log_scene_online Now:1383137046
+
+
+=INFO REPORT==== 2013-10-30 20:44:36 ===I(<0.1252.0>:db_agent_log:69) : insert_log_online Now:1383137076 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:45:26 ===I(<0.1253.0>:db_agent_log:111) : insert_log_scene_online Now:1383137126
+
+
+=INFO REPORT==== 2013-10-30 20:49:06 ===I(<0.1255.0>:db_agent_log:111) : insert_log_scene_online Now:1383137346
+
+
+=INFO REPORT==== 2013-10-30 20:49:36 ===I(<0.1257.0>:db_agent_log:69) : insert_log_online Now:1383137376 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:50:26 ===I(<0.1258.0>:db_agent_log:111) : insert_log_scene_online Now:1383137426
+
+
+=INFO REPORT==== 2013-10-30 20:54:06 ===I(<0.1260.0>:db_agent_log:111) : insert_log_scene_online Now:1383137646
+
+
+=INFO REPORT==== 2013-10-30 20:54:36 ===I(<0.1262.0>:db_agent_log:69) : insert_log_online Now:1383137676 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 20:55:26 ===I(<0.1263.0>:db_agent_log:111) : insert_log_scene_online Now:1383137726
+
+
+=INFO REPORT==== 2013-10-30 20:59:06 ===I(<0.1273.0>:db_agent_log:111) : insert_log_scene_online Now:1383137946
+
+
+=INFO REPORT==== 2013-10-30 20:59:36 ===I(<0.1275.0>:db_agent_log:69) : insert_log_online Now:1383137976 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:00:26 ===I(<0.1276.0>:db_agent_log:111) : insert_log_scene_online Now:1383138026
+
+
+=INFO REPORT==== 2013-10-30 21:04:06 ===I(<0.1279.0>:db_agent_log:111) : insert_log_scene_online Now:1383138246
+
+
+=INFO REPORT==== 2013-10-30 21:04:36 ===I(<0.1281.0>:db_agent_log:69) : insert_log_online Now:1383138276 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:05:26 ===I(<0.1282.0>:db_agent_log:111) : insert_log_scene_online Now:1383138326
+
+
+=INFO REPORT==== 2013-10-30 21:09:06 ===I(<0.1285.0>:db_agent_log:111) : insert_log_scene_online Now:1383138546
+
+
+=INFO REPORT==== 2013-10-30 21:09:36 ===I(<0.1287.0>:db_agent_log:69) : insert_log_online Now:1383138576 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:10:26 ===I(<0.1288.0>:db_agent_log:111) : insert_log_scene_online Now:1383138626
+
+
+=INFO REPORT==== 2013-10-30 21:14:06 ===I(<0.1291.0>:db_agent_log:111) : insert_log_scene_online Now:1383138846
+
+
+=INFO REPORT==== 2013-10-30 21:14:36 ===I(<0.1293.0>:db_agent_log:69) : insert_log_online Now:1383138876 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:15:26 ===I(<0.1294.0>:db_agent_log:111) : insert_log_scene_online Now:1383138926
+
+
+=INFO REPORT==== 2013-10-30 21:19:06 ===I(<0.1297.0>:db_agent_log:111) : insert_log_scene_online Now:1383139146
+
+
+=INFO REPORT==== 2013-10-30 21:19:36 ===I(<0.1299.0>:db_agent_log:69) : insert_log_online Now:1383139176 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:20:26 ===I(<0.1300.0>:db_agent_log:111) : insert_log_scene_online Now:1383139226
+
+
+=INFO REPORT==== 2013-10-30 21:24:06 ===I(<0.1303.0>:db_agent_log:111) : insert_log_scene_online Now:1383139446
+
+
+=INFO REPORT==== 2013-10-30 21:24:36 ===I(<0.1305.0>:db_agent_log:69) : insert_log_online Now:1383139476 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:25:26 ===I(<0.1306.0>:db_agent_log:111) : insert_log_scene_online Now:1383139526
+
+
+=INFO REPORT==== 2013-10-30 21:29:06 ===I(<0.1309.0>:db_agent_log:111) : insert_log_scene_online Now:1383139746
+
+
+=INFO REPORT==== 2013-10-30 21:29:36 ===I(<0.1311.0>:db_agent_log:69) : insert_log_online Now:1383139776 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:30:26 ===I(<0.1312.0>:db_agent_log:111) : insert_log_scene_online Now:1383139826
+
+
+=INFO REPORT==== 2013-10-30 21:34:06 ===I(<0.1315.0>:db_agent_log:111) : insert_log_scene_online Now:1383140046
+
+
+=INFO REPORT==== 2013-10-30 21:34:36 ===I(<0.1317.0>:db_agent_log:69) : insert_log_online Now:1383140076 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:35:26 ===I(<0.1318.0>:db_agent_log:111) : insert_log_scene_online Now:1383140126
+
+
+=INFO REPORT==== 2013-10-30 21:39:06 ===I(<0.1321.0>:db_agent_log:111) : insert_log_scene_online Now:1383140346
+
+
+=INFO REPORT==== 2013-10-30 21:39:36 ===I(<0.1323.0>:db_agent_log:69) : insert_log_online Now:1383140376 OnlineNum:1 
+
+
+=INFO REPORT==== 2013-10-30 21:40:26 ===I(<0.1325.0>:db_agent_log:111) : insert_log_scene_online Now:1383140426
+
+
+=ERROR REPORT==== 2013-10-30 21:42:12 ===E(<0.1265.0>:game_server_reader:249) : timeout Lost player connection 
+
+
+=INFO REPORT==== 2013-10-30 21:44:06 ===I(<0.1328.0>:db_agent_log:111) : insert_log_scene_online Now:1383140646
+
+
+=INFO REPORT==== 2013-10-30 21:44:36 ===I(<0.1330.0>:db_agent_log:69) : insert_log_online Now:1383140676 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 21:45:26 ===I(<0.1331.0>:db_agent_log:111) : insert_log_scene_online Now:1383140726
+
+
+=INFO REPORT==== 2013-10-30 21:49:06 ===I(<0.1333.0>:db_agent_log:111) : insert_log_scene_online Now:1383140946
+
+
+=INFO REPORT==== 2013-10-30 21:49:36 ===I(<0.1335.0>:db_agent_log:69) : insert_log_online Now:1383140976 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 21:50:26 ===I(<0.1336.0>:db_agent_log:111) : insert_log_scene_online Now:1383141026
+
+
+=INFO REPORT==== 2013-10-30 21:54:06 ===I(<0.1338.0>:db_agent_log:111) : insert_log_scene_online Now:1383141246
+
+
+=INFO REPORT==== 2013-10-30 21:54:36 ===I(<0.1340.0>:db_agent_log:69) : insert_log_online Now:1383141276 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 21:55:26 ===I(<0.1341.0>:db_agent_log:111) : insert_log_scene_online Now:1383141326
+
+
+=INFO REPORT==== 2013-10-30 21:59:06 ===I(<0.1343.0>:db_agent_log:111) : insert_log_scene_online Now:1383141546
+
+
+=INFO REPORT==== 2013-10-30 21:59:36 ===I(<0.1345.0>:db_agent_log:69) : insert_log_online Now:1383141576 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:00:26 ===I(<0.1346.0>:db_agent_log:111) : insert_log_scene_online Now:1383141626
+
+
+=INFO REPORT==== 2013-10-30 22:04:06 ===I(<0.1348.0>:db_agent_log:111) : insert_log_scene_online Now:1383141846
+
+
+=INFO REPORT==== 2013-10-30 22:04:36 ===I(<0.1350.0>:db_agent_log:69) : insert_log_online Now:1383141876 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:05:26 ===I(<0.1351.0>:db_agent_log:111) : insert_log_scene_online Now:1383141926
+
+
+=INFO REPORT==== 2013-10-30 22:09:06 ===I(<0.1353.0>:db_agent_log:111) : insert_log_scene_online Now:1383142146
+
+
+=INFO REPORT==== 2013-10-30 22:09:36 ===I(<0.1355.0>:db_agent_log:69) : insert_log_online Now:1383142176 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:10:26 ===I(<0.1356.0>:db_agent_log:111) : insert_log_scene_online Now:1383142226
+
+
+=INFO REPORT==== 2013-10-30 22:14:06 ===I(<0.1358.0>:db_agent_log:111) : insert_log_scene_online Now:1383142446
+
+
+=INFO REPORT==== 2013-10-30 22:14:36 ===I(<0.1360.0>:db_agent_log:69) : insert_log_online Now:1383142476 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:15:26 ===I(<0.1361.0>:db_agent_log:111) : insert_log_scene_online Now:1383142526
+
+
+=INFO REPORT==== 2013-10-30 22:19:06 ===I(<0.1363.0>:db_agent_log:111) : insert_log_scene_online Now:1383142746
+
+
+=INFO REPORT==== 2013-10-30 22:19:36 ===I(<0.1365.0>:db_agent_log:69) : insert_log_online Now:1383142776 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:20:26 ===I(<0.1366.0>:db_agent_log:111) : insert_log_scene_online Now:1383142826
+
+
+=INFO REPORT==== 2013-10-30 22:24:06 ===I(<0.1368.0>:db_agent_log:111) : insert_log_scene_online Now:1383143046
+
+
+=INFO REPORT==== 2013-10-30 22:24:36 ===I(<0.1370.0>:db_agent_log:69) : insert_log_online Now:1383143076 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:25:26 ===I(<0.1371.0>:db_agent_log:111) : insert_log_scene_online Now:1383143126
+
+
+=INFO REPORT==== 2013-10-30 22:29:06 ===I(<0.1373.0>:db_agent_log:111) : insert_log_scene_online Now:1383143346
+
+
+=INFO REPORT==== 2013-10-30 22:29:36 ===I(<0.1375.0>:db_agent_log:69) : insert_log_online Now:1383143376 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:30:26 ===I(<0.1376.0>:db_agent_log:111) : insert_log_scene_online Now:1383143426
+
+
+=INFO REPORT==== 2013-10-30 22:34:06 ===I(<0.1378.0>:db_agent_log:111) : insert_log_scene_online Now:1383143646
+
+
+=INFO REPORT==== 2013-10-30 22:34:36 ===I(<0.1380.0>:db_agent_log:69) : insert_log_online Now:1383143676 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:35:26 ===I(<0.1381.0>:db_agent_log:111) : insert_log_scene_online Now:1383143726
+
+
+=INFO REPORT==== 2013-10-30 22:39:06 ===I(<0.1383.0>:db_agent_log:111) : insert_log_scene_online Now:1383143946
+
+
+=INFO REPORT==== 2013-10-30 22:39:36 ===I(<0.1385.0>:db_agent_log:69) : insert_log_online Now:1383143976 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:40:26 ===I(<0.1386.0>:db_agent_log:111) : insert_log_scene_online Now:1383144026
+
+
+=INFO REPORT==== 2013-10-30 22:44:06 ===I(<0.1388.0>:db_agent_log:111) : insert_log_scene_online Now:1383144246
+
+
+=INFO REPORT==== 2013-10-30 22:44:36 ===I(<0.1390.0>:db_agent_log:69) : insert_log_online Now:1383144276 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:45:26 ===I(<0.1391.0>:db_agent_log:111) : insert_log_scene_online Now:1383144326
+
+
+=INFO REPORT==== 2013-10-30 22:49:06 ===I(<0.1393.0>:db_agent_log:111) : insert_log_scene_online Now:1383144546
+
+
+=INFO REPORT==== 2013-10-30 22:49:36 ===I(<0.1395.0>:db_agent_log:69) : insert_log_online Now:1383144576 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:50:26 ===I(<0.1396.0>:db_agent_log:111) : insert_log_scene_online Now:1383144626
+
+
+=INFO REPORT==== 2013-10-30 22:54:06 ===I(<0.1398.0>:db_agent_log:111) : insert_log_scene_online Now:1383144846
+
+
+=INFO REPORT==== 2013-10-30 22:54:36 ===I(<0.1400.0>:db_agent_log:69) : insert_log_online Now:1383144876 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 22:55:26 ===I(<0.1401.0>:db_agent_log:111) : insert_log_scene_online Now:1383144926
+
+
+=INFO REPORT==== 2013-10-30 22:59:06 ===I(<0.1403.0>:db_agent_log:111) : insert_log_scene_online Now:1383145146
+
+
+=INFO REPORT==== 2013-10-30 22:59:36 ===I(<0.1405.0>:db_agent_log:69) : insert_log_online Now:1383145176 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 23:00:26 ===I(<0.1406.0>:db_agent_log:111) : insert_log_scene_online Now:1383145226
+
+
+=INFO REPORT==== 2013-10-30 23:04:06 ===I(<0.1408.0>:db_agent_log:111) : insert_log_scene_online Now:1383145446
+
+
+=INFO REPORT==== 2013-10-30 23:04:36 ===I(<0.1410.0>:db_agent_log:69) : insert_log_online Now:1383145476 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 23:05:26 ===I(<0.1411.0>:db_agent_log:111) : insert_log_scene_online Now:1383145526
+
+
+=INFO REPORT==== 2013-10-30 23:09:06 ===I(<0.1413.0>:db_agent_log:111) : insert_log_scene_online Now:1383145746
+
+
+=INFO REPORT==== 2013-10-30 23:09:36 ===I(<0.1415.0>:db_agent_log:69) : insert_log_online Now:1383145776 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 23:10:26 ===I(<0.1416.0>:db_agent_log:111) : insert_log_scene_online Now:1383145826
+
+
+=INFO REPORT==== 2013-10-30 23:14:06 ===I(<0.1418.0>:db_agent_log:111) : insert_log_scene_online Now:1383146046
+
+
+=INFO REPORT==== 2013-10-30 23:14:36 ===I(<0.1420.0>:db_agent_log:69) : insert_log_online Now:1383146076 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 23:15:26 ===I(<0.1421.0>:db_agent_log:111) : insert_log_scene_online Now:1383146126
+
+
+=INFO REPORT==== 2013-10-30 23:19:06 ===I(<0.1423.0>:db_agent_log:111) : insert_log_scene_online Now:1383146346
+
+
+=INFO REPORT==== 2013-10-30 23:19:36 ===I(<0.1425.0>:db_agent_log:69) : insert_log_online Now:1383146376 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 23:20:26 ===I(<0.1426.0>:db_agent_log:111) : insert_log_scene_online Now:1383146426
+
+
+=INFO REPORT==== 2013-10-30 23:24:06 ===I(<0.1428.0>:db_agent_log:111) : insert_log_scene_online Now:1383146646
+
+
+=INFO REPORT==== 2013-10-30 23:24:36 ===I(<0.1430.0>:db_agent_log:69) : insert_log_online Now:1383146676 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 23:25:26 ===I(<0.1431.0>:db_agent_log:111) : insert_log_scene_online Now:1383146726
+
+
+=INFO REPORT==== 2013-10-30 23:29:06 ===I(<0.1433.0>:db_agent_log:111) : insert_log_scene_online Now:1383146946
+
+
+=INFO REPORT==== 2013-10-30 23:29:36 ===I(<0.1435.0>:db_agent_log:69) : insert_log_online Now:1383146976 OnlineNum:0 
+
+
+=INFO REPORT==== 2013-10-30 23:30:26 ===I(<0.1436.0>:db_agent_log:111) : insert_log_scene_online Now:1383147026
+
